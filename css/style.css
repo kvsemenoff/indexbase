@@ -1,0 +1,15 @@
+@import url(reset.css);
+@import url(fonts.css);
+.center {
+  text-align: center;
+  margin: 0 auto; }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/***************/
+
+/*# sourceMappingURL=style.css.map */
