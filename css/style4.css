@@ -102,17 +102,41 @@
 /*-------------------------------------------------*/
 /*------ Footer ------*/
 .ab-footer {
-  width: 100%;
-  min-width: 1200px;
   background-color: #14181B;
-  height: 200px; }
-  .ab-footer span {
-    color: white;
-    font-size: 14px;
-    font-family: "RobotoCondensedRegular"; }
+  padding: 65px 0 65px;
+  position: relative; }
 
-.ab-logo-footer {
-  padding-top: 70px; }
+.ab-copy-txt {
+  font-family: "Exo2-Light";
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  left: -50px;
+  top: 20px; }
+
+.ab-social2 {
+  position: absolute;
+  left: -96px;
+  top: 22px; }
+  .ab-social2 i {
+    color: white;
+    padding-left: 10px;
+    margin-top: -15px; }
+
+.ab-support {
+  position: absolute;
+  left: -117px; }
+  .ab-support a {
+    color: #767980; }
+  .ab-support a:hover {
+    color: yellow; }
+
+.ab-kontakt-footer {
+  margin-top: 17px; }
+
+.ab-treug {
+  float: right;
+  margin-top: -10px; }
 
 /*-------------------------------------------------*/
 /*==========  Desktop First Method  ==========*/
