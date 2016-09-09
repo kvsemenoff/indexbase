@@ -15,12 +15,20 @@
   padding-left: 10px; }
 
 .ab-more {
-  color: red; }
+  background: url(../img/left.png) no-repeat top left;
+  color: red;
+  padding-left: 11px;
+  margin-left: 20px; }
   .ab-more a {
+    padding-left: 12px;
     color: red; }
 
 .ab-project {
-  color: #0088B3; }
+  color: #0088B3;
+  background: url(../img/right.png) no-repeat top left;
+  margin-left: 10px; }
+  .ab-project a {
+    padding-left: 12px; }
 
 .fa-fa-facebook-official {
   color: white; }
