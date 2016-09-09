@@ -23,7 +23,7 @@
 <div class="ab-middle-header">
 	<div class="ab-wrap">		
 		<div class="ab-side">
-			<div class="ab-logo"></div>
+			<div class="ab-logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
 			<div class="ab-menu">
 				<a class="ab1" href="#">Главная</a>
 				<a class="ab2" href="#">Вопросы и ответы</a>
