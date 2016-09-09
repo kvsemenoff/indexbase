@@ -21,7 +21,7 @@
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="js/common.js"></script>
 
-	
+
 	<?php require_once('includes/header-top.php');?>
 	<div id="top-slider">
 		<div class="item item-red">
@@ -30,28 +30,31 @@
 			<div class="imgbox">
 				<img src="img/t1.png" alt="">
 			</div>
-			<div class="svech">1</div>		
+			<div class="svech"></div>		
 		</div>
-		<div class="item">
+		<div class="item item-purple">
 			<span class="title">P2000</span>
 			<span class="sub-title">Название окраса</span>
 			<div class="imgbox">
 				<img src="img/t2.png" alt="">
 			</div>
+			<div class="svech"></div>		
 		</div>
-		<div class="item">
+		<div class="item item-pink">
 			<span class="title">P2000</span>
 			<span class="sub-title">Название окраса</span>
 			<div class="imgbox">
 				<img src="img/t3.png" alt="">
 			</div>
+			<div class="svech"></div>		
 		</div>
-		<div class="item">
+		<div class="item item-blue">
 			<span class="title">P2000</span>
 			<span class="sub-title">Название окраса</span>
 			<div class="imgbox">
 				<img src="img/t4.png" alt="">
 			</div>
+			<div class="svech"></div>		
 		</div>
 				<div class="item item-red">
 			<span class="title">P2000</span>
@@ -59,6 +62,7 @@
 			<div class="imgbox">
 				<img src="img/t1.png" alt="">
 			</div>
+			<div class="svech"></div>		
 		</div>
 		<div class="item">
 			<span class="title">P2000</span>
@@ -66,6 +70,7 @@
 			<div class="imgbox">
 				<img src="img/t2.png" alt="">
 			</div>
+			<div class="svech"></div>		
 		</div>
 		<div class="item">
 			<span class="title">P2000</span>
@@ -73,6 +78,7 @@
 			<div class="imgbox">
 				<img src="img/t3.png" alt="">
 			</div>
+			<div class="svech"></div>		
 		</div>
 		<div class="item">
 			<span class="title">P2000</span>
@@ -80,6 +86,7 @@
 			<div class="imgbox">
 				<img src="img/t4.png" alt="">
 			</div>
+			<div class="svech"></div>		
 		</div>
 	</div>
 

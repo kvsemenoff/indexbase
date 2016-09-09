@@ -3,6 +3,9 @@
 @import "style4.css";
 
 $red: #cd3535;
+$purple: #8e35cd;
+$pink: #cd35bd;
+$blue: #359dcd;
 strong{
 	
 }
@@ -28,6 +31,8 @@ body{
 
         img{
             width: unset !important;
+            display: block;
+            margin: 0 auto;
         }
         .title{
             display: block;
@@ -49,6 +54,8 @@ body{
         .img-box{
             width: 100%;
             text-align: center;
+            position: absolute;
+            z-index: 50;
             img{
                 display: inline-block;
             }
@@ -58,19 +65,47 @@ body{
     .item:hover{
         background: #29303b;
     }
+    @mixin svech($color) {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background-color: $color;  
+        width: 25px;
+        height: 25px;
+        bottom: -25px;
+        z-index: 10;
+        box-shadow: 0 0 5px $color, 0 0 10px $color, 0 0 15px $color, 0 0 20px $color,
+        0 0 35px $color, 0 0 40px $color, 0 0 50px $color, 0 0 75px $color,
+        0 0 85px $color, 0 0 105px $color;
+    }
+
+   
+
     .item-red{
         border-top: 4px solid $red;
         .svech{
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%, 0);
-            background-color: $red;  
-            width: 25px;
-            height: 25px;
-
-
+            @include svech($red);
         }
     }
+    .item-purple{
+        border-top: 4px solid $purple;
+        .svech{
+            @include svech($purple);
+        }
+    }
+    .item-pink{
+        border-top: 4px solid $pink;
+        .svech{
+            @include svech($pink);
+        }
+    }
+    .item-blue{
+        border-top: 4px solid $blue;
+        .svech{
+            @include svech($blue);
+        }
+    }
+
 }
 /*==========  Mobile First Method  ==========*/
 
