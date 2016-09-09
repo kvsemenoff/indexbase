@@ -13,6 +13,10 @@
   margin: 0 auto; 
 }
 
+.ab-left-side {
+  float: left;
+}
+
 .ab-project, .ab-more{
   font-family: "RobotoCondensedRegular";
   font-size: 12px;
@@ -40,11 +44,13 @@
     }
 }
 
+.right {
+  float: right;
+}
 
 .ab-social {
   position: relative;
   i {
-    float: right;
     color: white;
     padding-left: 10px;
     margin-top: -15px; 

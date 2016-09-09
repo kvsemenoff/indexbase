@@ -10,12 +10,13 @@
 		<div class="right">
 			<div class="ab-social">	
 				<i class="fa fa-facebook" aria-hidden="true"></i>
-				<i class="fa fa-vk" aria-hidden="true"></i>
+				<i class="fa fa-vk" aria-hidden="true"></i>	
 				<i class="fa fa-youtube" aria-hidden="true"></i>
 			</div>
 
 			<div class="ab-language"></div>	
 		</div>
+		<div class="clearfix"></div>
 	</div>
 </div>	
 			

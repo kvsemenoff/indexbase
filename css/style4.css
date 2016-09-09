@@ -9,6 +9,9 @@
   width: 1200px;
   margin: 0 auto; }
 
+.ab-left-side {
+  float: left; }
+
 .ab-project, .ab-more {
   font-family: "RobotoCondensedRegular";
   font-size: 12px;
@@ -30,10 +33,12 @@
   .ab-project a {
     padding-left: 12px; }
 
+.right {
+  float: right; }
+
 .ab-social {
   position: relative; }
   .ab-social i {
-    float: right;
     color: white;
     padding-left: 10px;
     margin-top: -15px; }
