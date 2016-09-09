@@ -273,6 +273,39 @@
 		
 	</div>
 
+	<div class="footer-top">
+		<div class="ab-wrap">
+		 	<div class="info-block">
+		 		<span class="digit">
+		 			19346
+		 		</span>	
+		 		<span class="text k1">
+		 			Открыто <br>
+		 			кейсов
+		 		</span>	
+		 	</div>
+		 	<div class="info-block">
+		 		<span class="digit">
+		 			19346
+		 		</span>	
+		 		<span class="text k2">
+		 			Наших <br>
+					пользователей
+		 		</span>	
+		 	</div>
+		 	<div class="info-block">
+		 		<span class="digit">
+		 			19346
+		 		</span>	
+		 		<span class="text k3">
+		 			Онлайн <br>
+					на сайте
+		 		</span>	
+		 	</div>
+		</div>
+
+
+	</div>
 	<?php require_once('includes/footer.php');?>
 		
 
