@@ -149,6 +149,51 @@
       z-index: 10;
       box-shadow: 0 0 5px #fe702a, 0 0 10px #fe702a, 0 0 15px #fe702a, 0 0 20px #fe702a, 0 0 35px #fe702a, 0 0 40px #fe702a, 0 0 50px #fe702a, 0 0 75px #fe702a, 0 0 85px #fe702a, 0 0 105px #fe702a; }
 
+.get-subjects {
+  width: 100%;
+  height: 70px;
+  background: #29303b; }
+  .get-subjects .ab-wrap {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; }
+  .get-subjects .title {
+    display: inline-block;
+    font-size: 14px;
+    color: #495669;
+    font-family: "RobotoCondensedBold";
+    text-transform: uppercase;
+    margin-left: 35px;
+    position: relative; }
+  .get-subjects .title:before {
+    position: absolute;
+    content: "";
+    background: url(../img/pipe.png) no-repeat left center;
+    width: 21px;
+    height: 21px;
+    margin-left: -35px; }
+  .get-subjects .info-block {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; }
+    .get-subjects .info-block .digit {
+      color: #fff;
+      font-family: "RobotoCondensedBold";
+      font-size: 26px; }
+    .get-subjects .info-block a {
+      text-decoration: none;
+      display: inline-block;
+      border-bottom: 2px solid #fede2a;
+      color: #fede2a;
+      margin-left: 13px;
+      text-transform: uppercase;
+      font-family: "RobotoCondensedBold";
+      font-size: 12px; }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */

@@ -242,6 +242,20 @@
 		</div>
 	</div>
 
+	<div class="get-subjects">
+		<div class="ab-wrap">
+			<span class="title">Полученных предметов</span>
+			<div class="info-block">
+				<span class="digit">647</span>
+				<a href="#">kniVes</a>
+			</div>
+			<div class="info-block">
+				<span class="digit">37679</span>
+				<a href="#">covert</a>
+			</div>
+		</div>
+		
+	</div>
 	
 		
 
