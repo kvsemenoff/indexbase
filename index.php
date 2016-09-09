@@ -20,16 +20,9 @@
 	<script src="js/jquery.mousewheel.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="js/common.js"></script>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+
+	
+	<?php require_once('includes/header-top.php');?>
 	<div id="top-slider">
 		<div class="item item-red">
 			<span class="title">P2000</span>
@@ -89,7 +82,11 @@
 			</div>
 		</div>
 	</div>
+
 	
+		
+
+
 	
 
 </body>
