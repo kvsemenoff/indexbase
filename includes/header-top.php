@@ -25,11 +25,12 @@
 		<div class="ab-side">
 			<div class="ab-logo"></div>
 			<div class="ab-menu">
-				<span><a href="#">ГЛАВНАЯ</a></span>
-				<span><a href="#">ВОПРОСЫ И ОТВЕТЫ</a></span>
-				<span><a href="#">ТЕХ.ПОДДЕРЖКА</a></span>
+				<a class="ab1" href="#">Главная</a>
+				<a class="ab2" href="#">Вопросы и ответы</a>
+				<a class="ab3" href="#">Тех.поддержка</a>
 			</div>
-			<div class="ab-steam-button"></div>
+			<a href="#"><div class="ab-steam-button"></div></a>
+			<div class="clearfix"></div>
 		</div>
 	</div>
 </div>	
