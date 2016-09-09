@@ -63,8 +63,8 @@
   background-color: #363636;
   width: 1px;
   height: 24px;
-  left: 1210px;
-  top: -20px;
+  left: 90px;
+  top: 0;
 
 } 
 
@@ -95,15 +95,47 @@
 
 
 .ab-menu {
+  font-family: "RobotoCondensedRegular";
+  text-transform: uppercase;
+  font-size: 16px;
   display: block;
   margin: -44px 332px;
+  width: 620px;
+  height: 20px; 
+    
+    a {
+      color: white;
+      margin-left: 20px;
+      padding-left: 23px;
+    }
+
+    a:hover {
+      color: yellow;
+    }
 }
+
+
+
+.ab1 {
+  display: inline-block;
+  background: url(../img/zvezda.png) no-repeat left center;
+    }
+
+.ab2 {
+  display: inline-block;
+  background: url(../img/faq.png) no-repeat left center;
+    }
+
+.ab3 {
+  display: inline-block;
+  background: url(../img/teh.png) no-repeat left center;
+    }        
 
 .ab-steam-button {
   width: 295px;
   height: 64px;
   background: url(../img/steam-button.png) no-repeat top center;
-  margin-left: 100px;
+  float: right;
 }
 
 /*-------------------------------------------------*/
