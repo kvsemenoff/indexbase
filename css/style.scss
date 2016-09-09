@@ -15,12 +15,14 @@ strong{
 body{
    
 }
+
 .center{
 	text-align: center;
 	margin: 0 auto;
 }
 #top-slider{
     width: 100%;
+    min-width: 1200px;
     background: #15191d;
     .item{
         text-align: center;
@@ -242,6 +244,56 @@ body{
 
     }
 }
+.footer-top{
+    width: 100%;
+    min-width: 1200px;
+    background: #272b31;
+    height: 100px;
+    .ab-wrap{
+        display: -webkit-flex; 
+        display: flex; 
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    .info-block{
+        display: -webkit-flex; 
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 230px;
+        height: 100%;
+        .digit{
+            color: #fff;
+            font-family: "RobotoCondensedBold";
+            font-size: 26px;
+        }
+        span{
+            text-decoration: none;
+            display: inline-block;
+            
+            color: #fff;
+            margin-left: 15px;
+           
+            font-family: "Exo2-Light";
+            font-size: 16px;
+        }
+        .k1{
+            background: url(../img/k1.png) no-repeat left center;
+            padding-left: 50px;
+        }
+        .k2{
+            background: url(../img/k2.png) no-repeat left center;
+            padding-left: 50px;
+        }
+        .k3{
+            background: url(../img/k3.png) no-repeat left center;
+            padding-left: 50px;
+        }
+    }
+
+}
+
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
