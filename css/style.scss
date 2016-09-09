@@ -1,7 +1,6 @@
 @import "reset.css";
 @import "fonts.css";
-
-$yellow: #fafb00;
+@import "style4.css";
 
 strong{
 	
@@ -9,12 +8,10 @@ strong{
 body{
    
 }
-
 .center{
 	text-align: center;
 	margin: 0 auto;
 }
-
 
 /*==========  Mobile First Method  ==========*/
 
