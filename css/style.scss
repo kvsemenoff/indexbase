@@ -2,6 +2,7 @@
 @import "fonts.css";
 @import "style4.css";
 
+$red: #cd3535;
 strong{
 	
 }
@@ -12,7 +13,65 @@ body{
 	text-align: center;
 	margin: 0 auto;
 }
+#top-slider{
+    width: 100%;
+    background: #15191d;
+    .item{
+        text-align: center;
+        border-left: 1px solid #1c232a;
+        background: #15191d;
+        padding: 10px;
+        padding-bottom: 20px;
+        box-sizing: border-box !important;
+        overflow: hidden;
+        position: relative;
 
+        img{
+            width: unset !important;
+        }
+        .title{
+            display: block;
+            font-family: "RobotoCondensedBold";
+            font-size: 14px;
+            color: #fff;
+            text-transform: uppercase;
+            margin: 0 auto
+        }
+        .sub-title{
+            display: block;
+            
+            font-family: "RobotoCondensedRegular";
+            color: #415267;
+            margin: 0 auto;
+            font-size: 14px;
+
+        }
+        .img-box{
+            width: 100%;
+            text-align: center;
+            img{
+                display: inline-block;
+            }
+        }
+        
+    }
+    .item:hover{
+        background: #29303b;
+    }
+    .item-red{
+        border-top: 4px solid $red;
+        .svech{
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0);
+            background-color: $red;  
+            width: 25px;
+            height: 25px;
+
+
+        }
+    }
+}
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */

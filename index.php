@@ -18,32 +18,78 @@
 <body>
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="js/jquery.mousewheel.js"></script>
+	<script src="libs/owl.carousel/owl.carousel.js"></script>
 	<script src="js/common.js"></script>
-	
-	<section class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 col-sm-12 col-xs-12">
-					<div class="logo-box">
-						<a href="/"><img src="img/logo.png" alt=""></a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12">
-					<div class="header_middle">
-						<span class="tel">+7 911 745 1711</span> <br>
-						<a href="#zvonok" name="modal">Заказать обратный звонок</a>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12">
-					<div class="header-right">
-						<span>lineondesign@mail.ru</span> <br>
-						<a href="mailto:lineondesign@mail.ru">Напишите нам</a>
-					</div>
-				</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="top-slider">
+		<div class="item item-red">
+			<span class="title">P2000</span>
+			<span class="sub-title">Название окраса</span>
+			<div class="imgbox">
+				<img src="img/t1.png" alt="">
+			</div>
+			<div class="svech">1</div>		
+		</div>
+		<div class="item">
+			<span class="title">P2000</span>
+			<span class="sub-title">Название окраса</span>
+			<div class="imgbox">
+				<img src="img/t2.png" alt="">
 			</div>
 		</div>
-	</section>
-
+		<div class="item">
+			<span class="title">P2000</span>
+			<span class="sub-title">Название окраса</span>
+			<div class="imgbox">
+				<img src="img/t3.png" alt="">
+			</div>
+		</div>
+		<div class="item">
+			<span class="title">P2000</span>
+			<span class="sub-title">Название окраса</span>
+			<div class="imgbox">
+				<img src="img/t4.png" alt="">
+			</div>
+		</div>
+				<div class="item item-red">
+			<span class="title">P2000</span>
+			<span class="sub-title">Название окраса</span>
+			<div class="imgbox">
+				<img src="img/t1.png" alt="">
+			</div>
+		</div>
+		<div class="item">
+			<span class="title">P2000</span>
+			<span class="sub-title">Название окраса</span>
+			<div class="imgbox">
+				<img src="img/t2.png" alt="">
+			</div>
+		</div>
+		<div class="item">
+			<span class="title">P2000</span>
+			<span class="sub-title">Название окраса</span>
+			<div class="imgbox">
+				<img src="img/t3.png" alt="">
+			</div>
+		</div>
+		<div class="item">
+			<span class="title">P2000</span>
+			<span class="sub-title">Название окраса</span>
+			<div class="imgbox">
+				<img src="img/t4.png" alt="">
+			</div>
+		</div>
+	</div>
+	
 	
 
 </body>
