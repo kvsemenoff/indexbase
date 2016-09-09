@@ -208,13 +208,38 @@ body{
         a{
             text-decoration: none;
             display: inline-block;
-            border-bottom: 2px solid $yellow;
+            
             color: $yellow;
             margin-left: 13px;
             text-transform: uppercase;
             font-family: "RobotoCondensedBold";
             font-size: 12px;
         }
+        .yellow{
+            color: $yellow;
+            border-bottom: 2px solid $yellow;
+        }
+        .red{
+            color: $red;
+            border-bottom: 2px solid $red;
+        }
+        .purple{
+            color: $purple;
+            border-bottom: 2px solid $purple;
+        }
+        .blue{
+            color: $blue;
+            border-bottom: 2px solid $blue;
+        }
+        .orange{
+            color: $orange;
+            border-bottom: 2px solid $orange;
+        }
+        .pink{
+            color: $pink;
+            border-bottom: 2px solid $pink;
+        }
+
     }
 }
 /*==========  Mobile First Method  ==========*/

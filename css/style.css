@@ -187,12 +187,29 @@
     .get-subjects .info-block a {
       text-decoration: none;
       display: inline-block;
-      border-bottom: 2px solid #fede2a;
       color: #fede2a;
       margin-left: 13px;
       text-transform: uppercase;
       font-family: "RobotoCondensedBold";
       font-size: 12px; }
+    .get-subjects .info-block .yellow {
+      color: #fede2a;
+      border-bottom: 2px solid #fede2a; }
+    .get-subjects .info-block .red {
+      color: #cd3535;
+      border-bottom: 2px solid #cd3535; }
+    .get-subjects .info-block .purple {
+      color: #8e35cd;
+      border-bottom: 2px solid #8e35cd; }
+    .get-subjects .info-block .blue {
+      color: #359dcd;
+      border-bottom: 2px solid #359dcd; }
+    .get-subjects .info-block .orange {
+      color: #fe702a;
+      border-bottom: 2px solid #fe702a; }
+    .get-subjects .info-block .pink {
+      color: #cd35bd;
+      border-bottom: 2px solid #cd35bd; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */

@@ -247,16 +247,33 @@
 			<span class="title">Полученных предметов</span>
 			<div class="info-block">
 				<span class="digit">647</span>
-				<a href="#">kniVes</a>
+				<a href="#" class="yellow">kniVes</a>
 			</div>
 			<div class="info-block">
 				<span class="digit">37679</span>
-				<a href="#">covert</a>
+				<a href="#" class="red">covert</a>
+			</div>
+			<div class="info-block">
+				<span class="digit">26884</span>
+				<a href="#" class="blue">CLASSIFIED</a>
+			</div>
+			<div class="info-block">
+				<span class="digit">40210</span>
+				<a href="#" class="pink">RESTRICTED</a>
+			</div>
+			<div class="info-block">
+				<span class="digit">133694</span>
+				<a href="#" class="yellow">mil-spec</a>
+			</div>
+			<div class="info-block">
+				<span class="digit">3694</span>
+				<a href="#" class="orange">stattraktm </a>
 			</div>
 		</div>
 		
 	</div>
-	
+
+	<?php require_once('includes/footer.php');?>
 		
 
 
