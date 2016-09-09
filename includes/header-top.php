@@ -4,8 +4,8 @@
 <div class="ab-header-wrapper">
 	<div class="ab-wrap">		
 		<div class="ab-left-side">
-			<span class="ab-project"><a href="#">( ) PROJECT</a></span>
-			<span class="ab-more"><a href="#">( ) MORE</a></span>
+			<span class="ab-project"><a href="#">PROJECT</a></span>
+			<span class="ab-more"><a href="#">MORE</a></span>
 			<i class="fa fa-facebook" aria-hidden="true"></i>
 			<i class="fa fa-vk" aria-hidden="true"></i>
 			<i class="fa fa-youtube" aria-hidden="true"></i>
