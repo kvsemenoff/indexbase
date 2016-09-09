@@ -10,7 +10,7 @@
   margin: 0 auto; }
 
 .ab-project, .ab-more {
-  font-family: "Roboto-Condensed";
+  font-family: "RobotoCondensedRegular";
   font-size: 12px;
   padding-left: 10px; }
 
@@ -30,13 +30,22 @@
   .ab-project a {
     padding-left: 12px; }
 
-.fa-fa-facebook-official {
-  color: white; }
+.ab-social {
+  position: relative; }
+  .ab-social i {
+    float: right;
+    color: white;
+    padding-left: 10px;
+    margin-top: -15px; }
 
-.ab-left-side i {
-  float: right;
-  color: white;
-  padding-left: 10px; }
+.ab-social:after {
+  content: "";
+  position: absolute;
+  background-color: #363636;
+  width: 1px;
+  height: 24px;
+  left: 1210px;
+  top: -20px; }
 
 /*--------------------------------------------------*/
 /*------ ╨е╨╡╨┤╨╡╤А Middle------*/

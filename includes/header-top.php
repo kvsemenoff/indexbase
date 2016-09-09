@@ -6,9 +6,15 @@
 		<div class="ab-left-side">
 			<span class="ab-project"><a href="#">PROJECT</a></span>
 			<span class="ab-more"><a href="#">MORE</a></span>
-			<i class="fa fa-facebook" aria-hidden="true"></i>
-			<i class="fa fa-vk" aria-hidden="true"></i>
-			<i class="fa fa-youtube" aria-hidden="true"></i>
+		</div>	
+		<div class="right">
+			<div class="ab-social">	
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-vk" aria-hidden="true"></i>
+				<i class="fa fa-youtube" aria-hidden="true"></i>
+			</div>
+
+			<div class="ab-language"></div>	
 		</div>
 	</div>
 </div>	

@@ -14,7 +14,7 @@
 }
 
 .ab-project, .ab-more{
-  font-family: "Roboto-Condensed";
+  font-family: "RobotoCondensedRegular";
   font-size: 12px;
   padding-left: 10px;
 
@@ -40,17 +40,29 @@
     }
 }
 
-.fa-fa-facebook-official {
-  color: white;
-}
 
-.ab-left-side {
+.ab-social {
+  position: relative;
   i {
     float: right;
     color: white;
-    padding-left: 10px; 
+    padding-left: 10px;
+    margin-top: -15px; 
   }
 }
+
+.ab-social:after {
+  content: "";
+  position: absolute;
+  background-color: #363636;
+  width: 1px;
+  height: 24px;
+  left: 1210px;
+  top: -20px;
+
+} 
+
+
 
 /*--------------------------------------------------*/
 
