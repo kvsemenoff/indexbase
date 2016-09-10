@@ -1,0 +1,43 @@
+
+
+
+<div class="ab-header-wrapper">
+	<div class="ab-wrap">		
+		<div class="ab-left-side">
+			<span class="ab-project"><a href="#">PROJECT</a></span>
+			<span class="ab-more"><a href="#">MORE</a></span>
+		</div>	
+		<div class="right">
+			<div class="ab-social">	
+				<a href ="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href ="#"><i class="fa fa-vk" aria-hidden="true"></i></a>	
+				<a href ="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="ab-language"></div>	
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>	
+			
+<div class="ab-middle-header">
+	<div class="ab-wrap">		
+		<div class="ab-side">
+			<div class="ab-logo"><a href="#"><img src="img/logo.png" alt=""></a></div>
+			<div class="ab-menu">
+				<a class="ab1" href="#">Главная</a>
+				<a class="ab2" href="#">Вопросы и ответы</a>
+				<a class="ab3" href="#">Тех.поддержка</a>
+			</div>
+			<div class="ab-profile-wrap">
+				<div class="ab-ava"><img src="img/ava-pro.png" alt=""></div>
+				<div class="ab-ava-txt">
+					<span class="ab-name">KEVINm</span>
+					<span class="ab-summa">2350</span><span class="ab-rub">руб.</span>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>	
+	

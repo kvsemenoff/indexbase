@@ -146,6 +146,26 @@
   margin-top: -10px; }
 
 /*-------------------------------------------------*/
+/*------ Profile ------*/
+.ab-profile-wrap {
+  float: left; }
+
+.ab-name {
+  font-family: "Exo2-Light";
+  font-size: 18px;
+  color: white; }
+
+.ab-summa {
+  font-family: "RobotoCondensedBold";
+  font-size: 18px;
+  color: yellow; }
+
+.ab-rub {
+  font-family: "Exo2-Medium";
+  font-size: 18px;
+  color: white; }
+
+/*-------------------------------------------------*/
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
