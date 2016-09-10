@@ -213,11 +213,14 @@
 /*------ Profile ------*/
 
 .ab-profile-wrap {
-  //float: left;
+  //margin-left: 1049px;
+  min-width: 177px;
+  float: right;
 }
 
 .ab-ava {
   float: left;
+  padding-right: 18px;
 }
 
 .ab-ava-txt {
@@ -228,20 +231,45 @@
   font-family: "Exo2-Light";
   font-size: 18px;
   color: white;
+  position: relative;
+}
+
+.ab-name:after {
+  background: url(../img/bt-right.png) no-repeat;
+  width: 14px;
+  height: 11px;
+  content: "";
+  position: absolute;
+  left: 74px;
+  top: 6px;
 }
 
 .ab-summa {
   font-family: "RobotoCondensedBold";
   font-size: 18px;
   color: yellow;
+  position: relative;
+}
+
+.ab-summa:after {
+  background: url(../img/bt-up.png) no-repeat;
+  width: 14px;
+  height: 11px;
+  content: "";
+  position: absolute;
+  left: 86px;
+  top: 9px;
+
 }
 
 .ab-rub {
   font-family: "Exo2-Medium";
   font-size: 18px;
   color: white;
+  padding-left: 5px;
 
 }
+
 /*-------------------------------------------------*/
 
 
