@@ -71,6 +71,18 @@
 
 } 
 
+.ab-language {
+  float: right;
+}
+
+select {
+  float: left;
+  background: url(../img/rus.png) no-repeat;
+  border: none;
+  width:70px; 
+
+}
+
 /*--------------------------------------------------*/
 
 
@@ -215,7 +227,6 @@
 /*------ Profile ------*/
 
 .ab-profile-wrap {
-  //margin-left: 1049px;
   min-width: 177px;
   float: right;
 }
@@ -271,6 +282,7 @@
   padding-left: 5px;
 
 }
+
 
 /*-------------------------------------------------*/
 

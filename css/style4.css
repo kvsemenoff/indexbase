@@ -55,6 +55,15 @@
   left: 90px;
   top: 0; }
 
+.ab-language {
+  float: right; }
+
+select {
+  float: left;
+  background: url(../img/rus.png) no-repeat;
+  border: none;
+  width: 70px; }
+
 /*--------------------------------------------------*/
 /*------ ╨е╨╡╨┤╨╡╤А Middle------*/
 .ab-middle-header {

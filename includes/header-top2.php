@@ -12,9 +12,15 @@
 				<a href ="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 				<a href ="#"><i class="fa fa-vk" aria-hidden="true"></i></a>	
 				<a href ="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+				
 			</div>
 
-			<div class="ab-language"></div>	
+			<div class="ab-language">
+				<select>
+		           <option><img src="img/rus.png" alt=""></option>
+		           <option>eng</option>
+           		</select>
+           	</div>	
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -36,6 +42,9 @@
 					<span class="ab-summa">2350</span><span class="ab-rub">руб.</span>
 				</div>
 			</div>
+
+			
+
 			<div class="clearfix"></div>
 		</div>
 	</div>
