@@ -272,16 +272,12 @@
 		</div>
 		
 	</div>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	
+	<div class="middle-box">
+		<div class="ab-wrap">
+			
+		</div>
+	</div>
 
 	<div class="cases">
 		<div class="ab-wrap">
