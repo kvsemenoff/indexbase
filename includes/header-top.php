@@ -9,9 +9,9 @@
 		</div>	
 		<div class="right">
 			<div class="ab-social">	
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-				<i class="fa fa-vk" aria-hidden="true"></i>	
-				<i class="fa fa-youtube" aria-hidden="true"></i>
+				<a href ="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href ="#"><i class="fa fa-vk" aria-hidden="true"></i></a>	
+				<a href ="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
 			</div>
 
 			<div class="ab-language"></div>	

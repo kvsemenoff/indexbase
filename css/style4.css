@@ -102,30 +102,38 @@
 /*-------------------------------------------------*/
 /*------ Footer ------*/
 .ab-footer {
+  width: 100%;
+  min-width: 1200px;
   background-color: #14181B;
-  padding: 65px 0 65px;
+  padding: 65px 0px;
   position: relative; }
+  .ab-footer .ab-wrap {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; }
+  .ab-footer .clg {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%; }
 
 .ab-copy-txt {
+  margin-left: 20px;
   font-family: "Exo2-Light";
   color: white;
-  font-size: 16px;
-  position: absolute;
-  left: -50px;
-  top: 20px; }
+  font-size: 16px; }
 
-.ab-social2 {
-  position: absolute;
-  left: -96px;
-  top: 22px; }
-  .ab-social2 i {
-    color: white;
-    padding-left: 10px;
-    margin-top: -15px; }
+.ab-social2 i {
+  color: white;
+  padding-left: 10px;
+  margin-top: -15px; }
 
 .ab-support {
-  position: absolute;
-  left: -117px; }
+  font-family: "Exo2-Light";
+  font-size: 14px; }
   .ab-support a {
     color: #767980; }
   .ab-support a:hover {
@@ -135,7 +143,6 @@
   margin-top: 17px; }
 
 .ab-treug {
-  float: right;
   margin-top: -10px; }
 
 /*-------------------------------------------------*/
