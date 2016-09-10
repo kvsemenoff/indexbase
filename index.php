@@ -275,160 +275,419 @@
 	
 	<div class="middle-box">
 		<div class="ab-wrap">
-			
+			<div class="arm-row">
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box cb-1">
+							<div class="img-box">
+								
+							</div>
+						</div>
+						<div class="text-form-1 blue">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box cb-2">
+							<div class="img-box">
+								<img src="img/r2_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 purple">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box cb-3">
+							<div class="img-box">
+								<img src="img/r3_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 red">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box cb-4">
+							<div class="img-box">
+								<img src="img/r4_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 orange">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box cb-5">
+							<div class="img-box">
+								<img src="img/r5_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 yellow">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+
+				</a>
+			</div>
+
+
+			<div class="arm-row">
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-1">
+							<div class="img-box">
+								<img src="img/gunsbox/awp/1.png" alt="">
+							</div>
+						</div>
+
+						<div class="text-form-1 blue">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-2">
+							<div class="img-box">
+								<img src="img/v2_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 purple">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-3">
+							<div class="img-box">
+								<img src="img/v3_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 red">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-4">
+							<div class="img-box">
+								<img src="img/v4_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 orange">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+			</div>
+
+
+			<div class="arm-row">
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-5">
+							<div class="img-box">
+								<img src="img/v5_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 blue">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-6">
+							<div class="img-box">
+								<img src="img/v6_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 purple">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-7">
+							<div class="img-box">
+								<img src="img/v7_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 red">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-8">
+							<div class="img-box">
+								<img src="img/v8_2.png" alt="">
+							</div>
+						</div>
+						<div class="text-form-1 orange">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+			</div>
+
+			<div class="arm-row">
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-9">
+							<div class="img-box">
+								
+							</div>
+						</div>
+						<div class="text-form-1 blue">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-9">
+							<div class="img-box">
+								
+							</div>
+						</div>
+						<div class="text-form-1 purple">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-10">
+							<div class="img-box">
+								
+							</div>
+						</div>
+						<div class="text-form-1 red">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-11">
+							<div class="img-box">
+								
+							</div>
+						</div>
+						<div class="text-form-1 orange">
+							<span class="ttl-1">Случайное</span> <br>
+							<span class="ttl-2 ">армейское</span> 
+							<div class="price-block">
+								<div class="price-box">
+									<div class="pleft">
+										27
+									</div>
+									<div class="pright">
+										руб
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</a>
+			</div>
+
+
 		</div>
 	</div>
 
-	<div class="cases">
-		<div class="ab-wrap">
-			<h2>Кейсы CS:GO</h2>
-			<div class="case-row">
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-			</div>
-
-			<div class="case-row">
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-			</div>
-
-			<div class="case-row">
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-				<div class="case-row__item">
-					<div class="img-box">
-						<img src="img/sunduk.png" alt="">
-					</div>
-					<div class="left-box">
-						<span class="bl">Bloodhound</span> <br>
-						<span class="cs">case</span>
-					</div>
-				</div>
-			</div>
-
-									
-		</div>	
-	</div>
+	<?php require_once('includes/cases.php');?>
+	
 
 	<div class="footer-top">
 		<div class="ab-wrap">
@@ -471,3 +730,4 @@
 
 </body>
 </html>
+

@@ -1,6 +1,42 @@
 @import url(reset.css);
 @import url(fonts.css);
 @import url(style4.css);
+.blue {
+  color: #359dcd; }
+  .blue .price-block {
+    border: 2px solid #359dcd;
+    box-shadow: 0 0 5px #359dcd; }
+
+.red {
+  color: #cd3535; }
+  .red .price-block {
+    border: 2px solid #cd3535;
+    box-shadow: 0 0 5px #cd3535; }
+
+.pink {
+  color: #cd35bd; }
+  .pink .price-block {
+    border: 2px solid #cd35bd;
+    box-shadow: 0 0 5px #cd35bd; }
+
+.purple {
+  color: #8e35cd; }
+  .purple .price-block {
+    border: 2px solid #8e35cd;
+    box-shadow: 0 0 5px #8e35cd; }
+
+.yellow {
+  color: #fede2a; }
+  .yellow .price-block {
+    border: 2px solid #fede2a;
+    box-shadow: 0 0 5px #fede2a; }
+
+.orange {
+  color: #fe702a; }
+  .orange .price-block {
+    border: 2px solid #fe702a;
+    box-shadow: 0 0 5px #fe702a; }
+
 .center {
   text-align: center;
   margin: 0 auto; }
@@ -251,47 +287,126 @@
       background: url(../img/k3.png) no-repeat left center;
       padding-left: 50px; }
 
-.cases {
+.middle-box {
   width: 100%;
   min-width: 1200px;
-  background: #29303b;
-  padding: 215px 0px 35px 0px;
-  position: relative; }
-  .cases h2 {
-    display: block;
-    position: absolute;
-    width: 250px;
-    height: 160px;
-    color: #fff;
-    font-family: "RobotoCondensedBold";
-    font-size: 40px;
-    background: url(../img/cs.png) center center no-repeat;
-    left: 50%;
-    transform: translate(-50%, 0);
-    padding-top: 50px;
-    top: 35px; }
-  .cases .case-row {
+  background: #202731; }
+  .middle-box .arm-row {
     display: -webkit-flex;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    margin-bottom: 44px; }
-    .cases .case-row .case-row__item {
-      position: relative; }
-    .cases .case-row .left-box {
-      position: absolute;
-      bottom: 25px; }
-      .cases .case-row .left-box span.bl {
+    padding-bottom: 55px;
+    padding-top: 55px; }
+    .middle-box .arm-row .text-form-1 {
+      width: 100%;
+      text-align: center;
+      line-height: 10px; }
+      .middle-box .arm-row .text-form-1 span {
+        display: inline-block; }
+      .middle-box .arm-row .text-form-1 .ttl-1 {
+        font-family: "RobotoCondensedRegular";
+        font-size: 14px;
+        margin-bottom: 15px; }
+      .middle-box .arm-row .text-form-1 .ttl-2 {
+        font-family: "Exo2-Medium";
+        font-size: 23px; }
+    .middle-box .arm-row .text-form-2 {
+      line-height: 24px; }
+      .middle-box .arm-row .text-form-2 span {
+        display: inline-block;
         color: #fff;
-        font-family: "RobotoCondensedBold";
-        font-size: 19px;
-        font-style: italic;
-        text-shadow: 1px 1px 2px black; }
-      .cases .case-row .left-box span.cs {
-        color: #79869a;
-        font-family: "Exo2-Light";
-        font-size: 16px; }
+        line-height: 24px; }
+      .middle-box .arm-row .text-form-2 .ttl-1 {
+        font-family: 'Open Sans Extrabold Italic', arial;
+        font-size: 18px; }
+      .middle-box .arm-row .text-form-2 .ttl-2 {
+        font-family: 'Open Sans Extrabold Italic', arial;
+        font-size: 30px; }
+    .middle-box .arm-row a {
+      display: block;
+      width: 202px;
+      position: relative; }
+    .middle-box .arm-row a:hover:before {
+      position: absolute;
+      content: "";
+      width: 80px;
+      height: 80px;
+      background: url(../img/key.png) no-repeat top center;
+      z-index: 50;
+      left: 50%;
+      transform: translate(-50%, 0);
+      top: 55px; }
+    .middle-box .arm-row a:hover .img-box img {
+      display: block;
+      top: 5px !important;
+      transition: top 550ms ease-in-out; }
+    .middle-box .arm-row .arm-row__item {
+      position: relative; }
+      .middle-box .arm-row .arm-row__item .price-block {
+        display: inline-block;
+        border-radius: 25px;
+        padding: 15px 15px;
+        margin-top: 17px; }
+      .middle-box .arm-row .arm-row__item .price-box {
+        display: table;
+        color: #fff; }
+        .middle-box .arm-row .arm-row__item .price-box .pleft {
+          display: table-cell;
+          vertical-align: top;
+          font-size: 25px;
+          font-family: "RobotoCondensedBold"; }
+        .middle-box .arm-row .arm-row__item .price-box .pright {
+          display: table-cell;
+          vertical-align: top;
+          font-size: 14px;
+          font-family: "Exo2-Light"; }
+      .middle-box .arm-row .arm-row__item .com-img-box {
+        min-height: 187px; }
+        .middle-box .arm-row .arm-row__item .com-img-box .img-box {
+          width: 100%;
+          height: 100%;
+          position: relative; }
+          .middle-box .arm-row .arm-row__item .com-img-box .img-box img {
+            display: block;
+            position: absolute;
+            top: 28px;
+            z-index: 45; }
+      .middle-box .arm-row .arm-row__item .cb-1 {
+        background: url(../img/r1.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .cb-2 {
+        background: url(../img/r2.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .cb-3 {
+        background: url(../img/r3.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .cb-4 {
+        background: url(../img/r4.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .cb-5 {
+        background: url(../img/r5.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-1 {
+        background: url(../img/gunsbox/awp/3.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-2 {
+        background: url(../img/gunsbox/ak47/3.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-3 {
+        background: url(../img/gunsbox/m4/3.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-4 {
+        background: url(../img/gunsbox/usp-s/3.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-5 {
+        background: url(../img/gunsbox/glock18/3.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-6 {
+        background: url(../img/gunsbox/deagle/3.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-7 {
+        background: url(../img/v7.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-8 {
+        background: url(../img/v8.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-9 {
+        background: url(../img/v9.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-10 {
+        background: url(../img/v10.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-11 {
+        background: url(../img/v11.png) no-repeat top center; }
+      .middle-box .arm-row .arm-row__item .vb-12 {
+        background: url(../img/v12.png) no-repeat top center; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */

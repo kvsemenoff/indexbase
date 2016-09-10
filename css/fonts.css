@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
- 
+@import url(http://allfont.ru/allfont.css?fonts=open-sans-extrabold-italic);
 @font-face {
     font-family: "RobotoBlack";
     src: url('../fonts/RobotoBlack/Roboto-Black.eot');
