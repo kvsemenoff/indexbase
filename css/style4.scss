@@ -25,8 +25,19 @@
         align-items: center;
         height: 100%;
         margin-bottom: 44px;
+        a{
+            display: block;
+            position: relative;
+        }
+        a:hover{
+            .right-box{
+              border: 5px solid rgba(150,161,52, 0.5);
+            }
+        }
+
         .case-row__item{
             position: relative;
+            z-index: 1;
         }
         .left-box{
             position: absolute;
@@ -46,9 +57,39 @@
         }
         .right-box{
             position: absolute;
+            background: rgba(22,28,34, 0.8);
+            width: 80px;
+            height: 80px;
+            border-radius: 10em;
+            text-align: center;
+            z-index: 50;
+            top: 100px;
+            left: 162px;
+            box-sizing: border-box;
+            border: 5px solid rgba(150,161,52, 0);
+           
+
+
         }
     }   
 }
+      .ab-1 {
+          font-family: "RobotoCondensedBold";
+          font-size: 26px;
+          color: yellow;
+          text-align: center;
+          width: 100%;
+          display: block;
+          padding-top: 13px;
+}
+
+      .ab-2 {
+        font-family: "Exo2-Medium";
+        font-size: 12px;
+        display: block;
+        color: white;
+}
+
 
 /*------ Хедер ------*/
 
