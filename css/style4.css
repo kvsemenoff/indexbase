@@ -147,7 +147,10 @@
 
 /*-------------------------------------------------*/
 /*------ Profile ------*/
-.ab-profile-wrap {
+.ab-ava {
+  float: left; }
+
+.ab-ava-txt {
   float: left; }
 
 .ab-name {
