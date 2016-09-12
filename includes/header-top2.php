@@ -16,10 +16,50 @@
 			</div>
 
 			<div class="ab-language">
-				<select>
-		           <option><img src="img/rus.png" alt=""></option>
-		           <option>eng</option>
-           		</select>
+								<div id="cur-lang">
+					<div id="current">
+						<div class="lang-wrap">
+							<div class="img-box">
+								<img src="img/rus.png" alt="">
+							</div>
+							<div class="txt-box">
+								<span>ru</span>
+							</div>
+						</div>
+					</div>
+					<ul class="lang-switcher">
+						<li>
+							<div class="lang-wrap">
+								<div class="img-box">
+									<img src="img/rus.png" alt="">
+								</div>
+								<div class="txt-box">
+									<span>ru</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="lang-wrap">
+								<div class="img-box">
+									<img src="img/rus.png" alt="">
+								</div>
+								<div class="txt-box">
+									<span>en</span>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="lang-wrap">
+								<div class="img-box">
+									<img src="img/rus.png" alt="">
+								</div>
+								<div class="txt-box">
+									<span>de</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
            	</div>	
 		</div>
 		<div class="clearfix"></div>
