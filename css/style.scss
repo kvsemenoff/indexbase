@@ -9,6 +9,7 @@ $blue: #359dcd;
 $yellow: #fede2a;
 $orange: #fe702a;
 
+
 @mixin svech2($color) {
     border: 2px solid $color;
     box-shadow: 0 0 5px $color
@@ -343,14 +344,16 @@ body{
     width: 100%;
     min-width: 1200px;
     background: #202731;
+
+
     .arm-row{
         display: -webkit-flex; 
         display: flex; 
         justify-content: space-around;
         align-items: center;
         height: 100%;
-        padding-bottom: 55px;
-        padding-top: 55px;
+        //padding-bottom: 100px;
+        //padding-top: 55px;
         .text-form-1{
             width: 100%;
             text-align: center;
@@ -390,9 +393,7 @@ body{
             }
         }
 
-
 /* Средний блок со случайным оружием */
-
 
         .text-form-3{
             width: 100%;
@@ -412,6 +413,7 @@ body{
                 font-size: 16px;
                 margin-bottom: 7px;
                 color: white;
+                text-transform: uppercase;
 
             }
             .ttl-4{
@@ -419,11 +421,35 @@ body{
                 font-size: 23px;
                 display: block;
                 color: white;
-                padding-right: 55px;
+                padding-right: 41px;
+                text-transform: uppercase;
 
 
             }
         }
+
+            .ttl-3-m4{
+                font-family: 'Open Sans Extrabold Italic', arial;
+                text-transform: uppercase;
+                font-size: 16px;
+                margin-bottom: 7px;
+                color: white;
+                text-transform: uppercase;
+
+            }
+
+
+            .ttl-4-m4 {
+                font-family: 'Open Sans Extrabold Italic', arial !important;
+                font-size: 23px;
+                display: block;
+                color: white;
+                position: absolute;
+                right: 120px;
+                top: 17px;
+                text-transform: uppercase;
+
+            }
  
             .price-block2{
                 display: inline-block;
@@ -443,8 +469,60 @@ body{
                 position: absolute;
                 top: 58px;
                 left: 46px;
+                font-size: 14px;
+                font-family: "Exo2-Medium";
+
             
             }
+
+    
+            .ab-novinka2 {
+                display: inline-block;
+                border-radius: 25px;
+                border: 2px solid #FF1F81;
+                margin-top: -7px;
+                padding: 4px 9px 8px;
+                background-color: rgba( 18,25,31, 0.5 );
+                position: absolute;
+                top: 58px;
+                left: 46px;
+                font-size: 14px;
+                font-family: "Exo2-Medium";
+            
+            }
+
+            .ab-novinka3 {
+                display: inline-block;
+                border-radius: 25px;
+                border: 2px solid #00E7F2;
+                margin-top: -7px;
+                padding: 4px 9px 8px;
+                background-color: rgba( 18,25,31, 0.5 );
+                position: absolute;
+                top: 58px;
+                left: 46px;
+                font-size: 14px;
+                font-family: "Exo2-Medium";
+            
+            }
+
+            .ab-novinka4 {
+                display: inline-block;
+                border-radius: 25px;
+                border: 2px solid #FF5C76;
+                margin-top: -7px;
+                padding: 4px 9px 8px;
+                background-color: rgba( 18,25,31, 0.5 );
+                position: absolute;
+                top: 58px;
+                left: 46px;
+                font-size: 14px;
+                font-family: "Exo2-Medium";
+
+            
+            }
+      
+      
 
             .price-box2{
                 display: table;
@@ -459,6 +537,7 @@ body{
                     position: absolute;
                     right: 9px;
                     top: 55px;
+                    
                 }
                 .pright2{
                     display: table-cell;
@@ -468,6 +547,7 @@ body{
                     position: absolute;
                     right: -20px;
                     top: 50px;
+
                 }
             }
 
@@ -511,15 +591,110 @@ body{
             z-index: 80;
             left: 50%;
             transform: translate(-50%, 0);
-            top: 10px;
+            top: -10px;
         }
         
-.img-box-kraska {
-    position: absolute;
-    right: 64px;
-    top: -60px;
-}
-            
+        .img-box-kraska {
+            position: absolute;
+            right: 64px;
+            top: -60px;
+        }
+
+        .img-box-kraska-m4 {
+            position: absolute;
+            right: 64px;
+            top: -60px;
+            right: -35px;
+            top: -94px;
+        } 
+
+        .img-box-kraska-stat {
+            position: absolute;
+            right: 55px;
+            top: -11px;
+        } 
+
+         a:hover{
+            .img-box2-stat{
+
+                img{
+                    display: block;
+                    top: -90px !important;
+                    transition: top 550ms ease-in-out;
+                   
+
+                }
+            }
+
+        }
+
+
+
+        .ab-last {
+            position: absolute;
+            right: -3px;
+            top: 24px;
+            z-index: 50;
+        }
+
+        .ab-last2 {
+            position: absolute;
+            right: -41px;
+            top: 11px;
+        }
+
+        .img-box2-stat{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            img{
+                display: block;
+                position: absolute;
+                right: 18px;
+                top: -58px;
+                z-index: 45;
+                //transition: top 550ms easy-in-out;
+            }
+        }
+
+
+        /* Отдельные стили для раздела " Glock18 " */
+
+        .ttl-4-glock{
+            font-family: 'Open Sans Extrabold Italic', arial !important;
+            font-size: 23px;
+            display: block;
+            color: white;
+           // padding-right: 41px;
+            text-transform: uppercase;
+            position: absolute;
+            right: 46px;
+        }
+
+        /* Отдельные стили для раздела " Все или ничего " */
+
+        .ttl-3-last {
+            font-family: 'Open Sans Extrabold Italic', arial;
+            text-transform: uppercase;
+            font-size: 29px;
+            margin-bottom: 7px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .ttl-4-last {
+            font-family: 'Open Sans Extrabold Italic', arial !important;
+            font-size: 16px;
+            display: block;
+            color: white;
+            //padding-right: 41px;
+            position: absolute;
+            right: 24px;
+            text-transform: uppercase;
+            top: 22px;
+        }
+
+
 /* ------------------------------------------------------------- */
 
 
@@ -675,6 +850,19 @@ body{
 
 
         }
+    }
+    .arm-row1{
+        padding-top: 50px;
+        padding-bottom: 150px;
+    }
+    .arm-row2 {
+        padding-bottom: 80px;
+    }
+    .arm-row3 {
+        padding-bottom: 10px;
+    }
+    .arm-row4 {
+        padding-bottom: 100px;
     }
 }
 

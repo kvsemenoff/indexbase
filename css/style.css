@@ -298,9 +298,9 @@
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    padding-bottom: 55px;
-    padding-top: 55px;
     /* ╨б╤А╨╡╨┤╨╜╨╕╨╣ ╨▒╨╗╨╛╨║ ╤Б╨╛ ╤Б╨╗╤Г╤З╨░╨╣╨╜╤Л╨╝ ╨╛╤А╤Г╨╢╨╕╨╡╨╝ */
+    /* ╨Ю╤В╨┤╨╡╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╤А╨░╨╖╨┤╨╡╨╗╨░ " Glock18 " */
+    /* ╨Ю╤В╨┤╨╡╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╤А╨░╨╖╨┤╨╡╨╗╨░ " ╨Т╤Б╨╡ ╨╕╨╗╨╕ ╨╜╨╕╤З╨╡╨│╨╛ " */
     /* ------------------------------------------------------------- */ }
     .middle-box .arm-row .text-form-1 {
       width: 100%;
@@ -343,13 +343,31 @@
         text-transform: uppercase;
         font-size: 16px;
         margin-bottom: 7px;
-        color: white; }
+        color: white;
+        text-transform: uppercase; }
       .middle-box .arm-row .text-form-3 .ttl-4 {
         font-family: 'Open Sans Extrabold Italic', arial !important;
         font-size: 23px;
         display: block;
         color: white;
-        padding-right: 55px; }
+        padding-right: 41px;
+        text-transform: uppercase; }
+    .middle-box .arm-row .ttl-3-m4 {
+      font-family: 'Open Sans Extrabold Italic', arial;
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-bottom: 7px;
+      color: white;
+      text-transform: uppercase; }
+    .middle-box .arm-row .ttl-4-m4 {
+      font-family: 'Open Sans Extrabold Italic', arial !important;
+      font-size: 23px;
+      display: block;
+      color: white;
+      position: absolute;
+      right: 120px;
+      top: 17px;
+      text-transform: uppercase; }
     .middle-box .arm-row .price-block2 {
       display: inline-block;
       padding: 15px 15px;
@@ -363,7 +381,45 @@
       background-color: rgba(18, 25, 31, 0.5);
       position: absolute;
       top: 58px;
-      left: 46px; }
+      left: 46px;
+      font-size: 14px;
+      font-family: "Exo2-Medium"; }
+    .middle-box .arm-row .ab-novinka2 {
+      display: inline-block;
+      border-radius: 25px;
+      border: 2px solid #FF1F81;
+      margin-top: -7px;
+      padding: 4px 9px 8px;
+      background-color: rgba(18, 25, 31, 0.5);
+      position: absolute;
+      top: 58px;
+      left: 46px;
+      font-size: 14px;
+      font-family: "Exo2-Medium"; }
+    .middle-box .arm-row .ab-novinka3 {
+      display: inline-block;
+      border-radius: 25px;
+      border: 2px solid #00E7F2;
+      margin-top: -7px;
+      padding: 4px 9px 8px;
+      background-color: rgba(18, 25, 31, 0.5);
+      position: absolute;
+      top: 58px;
+      left: 46px;
+      font-size: 14px;
+      font-family: "Exo2-Medium"; }
+    .middle-box .arm-row .ab-novinka4 {
+      display: inline-block;
+      border-radius: 25px;
+      border: 2px solid #FF5C76;
+      margin-top: -7px;
+      padding: 4px 9px 8px;
+      background-color: rgba(18, 25, 31, 0.5);
+      position: absolute;
+      top: 58px;
+      left: 46px;
+      font-size: 14px;
+      font-family: "Exo2-Medium"; }
     .middle-box .arm-row .price-box2 {
       display: table;
       color: #fff; }
@@ -408,11 +464,68 @@
       z-index: 80;
       left: 50%;
       transform: translate(-50%, 0);
-      top: 10px; }
+      top: -10px; }
     .middle-box .arm-row .img-box-kraska {
       position: absolute;
       right: 64px;
       top: -60px; }
+    .middle-box .arm-row .img-box-kraska-m4 {
+      position: absolute;
+      right: 64px;
+      top: -60px;
+      right: -35px;
+      top: -94px; }
+    .middle-box .arm-row .img-box-kraska-stat {
+      position: absolute;
+      right: 55px;
+      top: -11px; }
+    .middle-box .arm-row a:hover .img-box2-stat img {
+      display: block;
+      top: -90px !important;
+      transition: top 550ms ease-in-out; }
+    .middle-box .arm-row .ab-last {
+      position: absolute;
+      right: -3px;
+      top: 24px;
+      z-index: 50; }
+    .middle-box .arm-row .ab-last2 {
+      position: absolute;
+      right: -41px;
+      top: 11px; }
+    .middle-box .arm-row .img-box2-stat {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+      .middle-box .arm-row .img-box2-stat img {
+        display: block;
+        position: absolute;
+        right: 18px;
+        top: -58px;
+        z-index: 45; }
+    .middle-box .arm-row .ttl-4-glock {
+      font-family: 'Open Sans Extrabold Italic', arial !important;
+      font-size: 23px;
+      display: block;
+      color: white;
+      text-transform: uppercase;
+      position: absolute;
+      right: 46px; }
+    .middle-box .arm-row .ttl-3-last {
+      font-family: 'Open Sans Extrabold Italic', arial;
+      text-transform: uppercase;
+      font-size: 29px;
+      margin-bottom: 7px;
+      color: white;
+      text-transform: uppercase; }
+    .middle-box .arm-row .ttl-4-last {
+      font-family: 'Open Sans Extrabold Italic', arial !important;
+      font-size: 16px;
+      display: block;
+      color: white;
+      position: absolute;
+      right: 24px;
+      text-transform: uppercase;
+      top: 22px; }
     .middle-box .arm-row a {
       display: block;
       width: 202px;
@@ -496,6 +609,15 @@
         background: url(../img/v11.png) no-repeat top center; }
       .middle-box .arm-row .arm-row__item .vb-12 {
         background: url(../img/v12.png) no-repeat top center; }
+  .middle-box .arm-row1 {
+    padding-top: 50px;
+    padding-bottom: 150px; }
+  .middle-box .arm-row2 {
+    padding-bottom: 80px; }
+  .middle-box .arm-row3 {
+    padding-bottom: 10px; }
+  .middle-box .arm-row4 {
+    padding-bottom: 100px; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
