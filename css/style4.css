@@ -312,7 +312,7 @@ select {
   height: 11px;
   content: "";
   position: absolute;
-  left: 74px;
+  right: -35px;
   top: 6px; }
 
 .ab-summa {

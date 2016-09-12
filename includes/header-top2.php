@@ -76,10 +76,14 @@
 				<a class="ab3" href="#">Тех.поддержка</a>
 			</div>
 			<div class="ab-profile-wrap">
-				<div class="ab-ava"><img src="img/ava-pro.png" alt=""></div>
+				<div class="ab-ava">
+					<a href="#"><img src="img/ava-pro.png" alt=""></a>
+				</div>
 				<div class="ab-ava-txt">
-					<span class="ab-name">KEVINm</span><br>
-					<span class="ab-summa">2350</span><span class="ab-rub">руб.</span>
+					<a href="#">
+						<span class="ab-name">KEVINm</span><br>
+						<span class="ab-summa">2350</span><span class="ab-rub">руб.</span>
+					</a>
 				</div>
 			</div>
 
