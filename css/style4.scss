@@ -115,7 +115,6 @@
   padding-left: 10px;
 
 }
-
 .ab-more {
   background: url(../img/left.png) no-repeat top left;
   color: red;
@@ -126,7 +125,6 @@
       color: red;
     }
 }
-
 .ab-project {
   color: #0088B3;
   background: url(../img/right.png) no-repeat top left;
@@ -135,11 +133,9 @@
       padding-left: 12px;
     }
 }
-
 .right {
   float: right;
 }
-
 .ab-social {
   position: relative;
   float: left;
@@ -164,20 +160,17 @@
     padding-top: 3px;
     width: 65px;
     position: relative;
-    //outline: 1px solid red;
     #cur-lang{
         width: 100%;
         position: relative;
         cursor: pointer;
         background: #000;
-        
     }
     #current{
         padding-left: 10px;
         .txt-box{
             width: 70%;
         }
-
     }
     #cur-lang:after{
         position: absolute;
