@@ -291,7 +291,8 @@ select {
 /*------ Profile ------*/
 .ab-profile-wrap {
   min-width: 177px;
-  float: right; }
+  float: right;
+  padding-top: 15px; }
 
 .ab-ava {
   float: left;
