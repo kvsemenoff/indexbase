@@ -1,7 +1,16 @@
 
 $(document).ready(function(){
    
+    $("#current").click(function () {
+        $('ul.lang-switcher').css('display', 'block');
+    });   
+    $(".lang-switcher li").click(function () {
+        //alert(t);
+        $("#current").html($(this).html());
+        $('ul.lang-switcher').css('display', 'none');
+    });
 
+    
    
     $("#top-slider").owlCarousel({
         loop:false,
