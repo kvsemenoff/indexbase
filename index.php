@@ -308,7 +308,7 @@
 						</div>
 						<div class="text-form-1 purple">
 							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
+							<span class="ttl-2 ">запрещенное</span> 
 							<div class="price-block">
 								<div class="price-box">
 									<div class="pleft">
@@ -331,7 +331,7 @@
 						</div>
 						<div class="text-form-1 red">
 							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
+							<span class="ttl-2 ">засекреченное</span> 
 							<div class="price-block">
 								<div class="price-box">
 									<div class="pleft">
@@ -354,7 +354,7 @@
 						</div>
 						<div class="text-form-1 orange">
 							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
+							<span class="ttl-2">тайное</span> 
 							<div class="price-block">
 								<div class="price-box">
 									<div class="pleft">
@@ -376,8 +376,8 @@
 							</div>
 						</div>
 						<div class="text-form-1 yellow">
-							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
+							<span class="ttl-1">Случайный</span> <br>
+							<span class="ttl-2">нож</span> 
 							<div class="price-block">
 								<div class="price-box">
 									<div class="pleft">
@@ -396,24 +396,30 @@
 
 
 			<div class="arm-row">
-				<a href="#">
+				<a class="ab-key" href="#">
 					<div class="arm-row__item">
-						<div class="com-img-box vb-1">
-							<div class="img-box">
+						<div class="com-img-box2 vb-1">
+							<div class="img-box2">
 								<img src="img/gunsbox/awp/1.png" alt="">
+							</div>
+							<div class="img-box-kraska">
+								<img src="img/gunsbox/awp/2.png" alt="">
 							</div>
 						</div>
 
-						<div class="text-form-1 blue">
-							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
-							<div class="price-block">
-								<div class="price-box">
-									<div class="pleft">
+						<div class="text-form-3 blue">
+							<span class="ttl-3">Случайное</span> <br>
+							<span class="ttl-4 ">AWP</span> 
+							<div class="price-block2">
+								<div class="price-box2">
+									<div class="ab-novinka">
+										новинка
+									</div>
+									<div class="pleft2">
 										27
 									</div>
-									<div class="pright">
-										руб
+									<div class="pright2">
+										руб.
 									</div>
 								</div>
 							</div>
@@ -428,8 +434,8 @@
 							</div>
 						</div>
 						<div class="text-form-1 purple">
-							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
+							<span class="ttl-1">Случайный</span> <br>
+							<span class="ttl-2 ">АК-47</span> 
 							<div class="price-block">
 								<div class="price-box">
 									<div class="pleft">
@@ -451,8 +457,8 @@
 							</div>
 						</div>
 						<div class="text-form-1 red">
-							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
+							<span class="ttl-1">Случайный</span> <br>
+							<span class="ttl-2 ">М4</span> 
 							<div class="price-block">
 								<div class="price-box">
 									<div class="pleft">
@@ -474,8 +480,8 @@
 							</div>
 						</div>
 						<div class="text-form-1 orange">
-							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
+							<span class="ttl-1">Случайный</span> <br>
+							<span class="ttl-2 ">USP-S</span> 
 							<div class="price-block">
 								<div class="price-box">
 									<div class="pleft">
