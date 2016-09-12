@@ -150,20 +150,89 @@
     margin-top: -15px; 
   }
 }
-
 .ab-social:after {
-  content: "";
-  position: absolute;
-  background-color: #363636;
-  width: 1px;
-  height: 24px;
-  left: 90px;
-  top: 0;
-
+    content: "";
+    position: absolute;
+    background-color: #363636;
+    width: 1px;
+    height: 24px;
+    left: 90px;
+    top: 0;
 } 
-
 .ab-language {
-  float: right;
+    float: right;
+    padding-top: 3px;
+    width: 65px;
+    position: relative;
+    //outline: 1px solid red;
+    #cur-lang{
+        width: 100%;
+        position: relative;
+        cursor: pointer;
+        background: #000;
+        
+    }
+    #current{
+        padding-left: 10px;
+        .txt-box{
+            width: 70%;
+        }
+
+    }
+    #cur-lang:after{
+        position: absolute;
+        content: "";
+        width: 6px;
+        height: 3px;
+        background: url(../img/arr_down.png) no-repeat top center;
+        top: 10px;
+        right: -3px;
+    }
+    #cur-lang:hover > ul.lang-switcher{
+        //display: block;
+    }
+    ul{
+        display: none;
+        width: 100%;
+        background: #000;
+        position: absolute;
+        padding-left: 10px;
+        padding-right: 25px;
+        padding-bottom: 5px;
+        li{
+            display: block;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+    }
+    .lang-wrap{
+        display: table;
+        width: 100%;
+        .img-box{
+            display: table-cell;
+            vertical-align: middle;
+            width: 27px;
+            img{
+                display: inline-block;
+            }
+        }
+        .txt-box{
+            display: table-cell;
+            vertical-align: middle;
+            width: 27px;
+            position: relative;
+            padding-left: 5px;
+            span{
+                display: inline-block;
+                position: absolute;
+                font-family: "Exo2-Medium";
+                font-size: 14px;
+                color: #fff;
+                text-transform: uppercase;
+                top: -0px;
+            }
+        }
+    }
 }
 
 select {
