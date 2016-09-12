@@ -619,6 +619,33 @@
   .middle-box .arm-row4 {
     padding-bottom: 100px; }
 
+.price-block3 {
+  display: inline-block;
+  padding: 15px 15px;
+  margin-top: 17px; }
+
+.ttl-5 {
+  color: white;
+  position: absolute;
+  right: 159px;
+  top: 174px; }
+
+.ttl-6 {
+  font-family: "RobotoCondensedBold";
+  font-size: 20px;
+  color: white;
+  padding-right: 69px;
+  position: absolute;
+  top: 192px;
+  left: 15px; }
+
+.ttl-6:hover {
+  color: yellow; }
+
+.price-block3 {
+  position: absolute;
+  top: 159px; }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
