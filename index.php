@@ -638,8 +638,8 @@
 
 			<div class="arm-row arm-row4">
 				<a href="#">
-					<div class="arm-row__item arm-row__item2">
-						<div class="com-img-box vb-9">
+					<div class="arm-row__item">
+						<div class="com-img-box vb-9-2">
 							<div class="img-box">
 								
 							</div>

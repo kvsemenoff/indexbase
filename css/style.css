@@ -646,6 +646,14 @@
   position: absolute;
   top: 159px; }
 
+.arm-row__item2 {
+  position: relative; }
+  .arm-row__item2 .price-block {
+    display: inline-block;
+    border-radius: 25px;
+    padding: 15px 15px;
+    margin-top: 17px; }
+
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */

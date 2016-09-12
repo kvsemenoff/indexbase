@@ -899,6 +899,17 @@ body{
     position: absolute;
     top: 159px;
 }
+
+.arm-row__item2 {
+            position: relative;
+            .price-block{
+                display: inline-block;
+                border-radius: 25px;
+                //border: 2px solid $blue;
+                padding: 15px 15px;
+                margin-top: 17px;
+            }
+        }
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
