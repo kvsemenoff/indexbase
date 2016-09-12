@@ -759,6 +759,7 @@ body{
             }
             .com-img-box{
                 min-height: 187px;
+                 min-width: 233px;
                 .img-box{
                     width: 100%;
                     height: 100%;
@@ -773,7 +774,7 @@ body{
                 }
             }
             .cb-1{
-                background: url(../img/r1.png) no-repeat top center;
+                background: url(../img/r3.png) no-repeat top center;
 
 
             }
@@ -862,7 +863,7 @@ body{
         padding-bottom: 10px;
     }
     .arm-row4 {
-        padding-bottom: 100px;
+        padding-bottom: 70px;
     }
 }
 
@@ -898,18 +899,30 @@ body{
 .price-block3 {
     position: absolute;
     top: 159px;
+    border: none !important;
+    box-shadow: none !important;
 }
 
-.arm-row__item2 {
-            position: relative;
-            .price-block{
-                display: inline-block;
-                border-radius: 25px;
-                //border: 2px solid $blue;
-                padding: 15px 15px;
-                margin-top: 17px;
-            }
-        }
+.pleft2 {
+    padding-left: 10px;
+}
+
+.pright3 {
+    left: 52px;
+    position: absolute;
+    top: 9px;
+
+}
+
+.ttl-7 {
+    font-family: "RobotoCondensedBold";
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    top: 192px;
+    left: -18px;
+}
+
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */

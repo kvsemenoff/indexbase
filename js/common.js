@@ -10,7 +10,9 @@ $(document).ready(function(){
         $('ul.lang-switcher').css('display', 'none');
     });
 
-    
+    $(".lang-switcher").mouseleave(function () {
+        $('ul.lang-switcher').css('display', 'none');
+    });
    
     $("#top-slider").owlCarousel({
         loop:false,

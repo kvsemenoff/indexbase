@@ -284,7 +284,7 @@
 					<div class="arm-row__item">
 						<div class="com-img-box cb-1">
 							<div class="img-box">
-								
+								<img src="img/r3_2.png" alt="">
 							</div>
 						</div>
 						<div class="text-form-1 blue">
@@ -639,7 +639,7 @@
 			<div class="arm-row arm-row4">
 				<a href="#">
 					<div class="arm-row__item">
-						<div class="com-img-box vb-9-2">
+						<div class="com-img-box vb-9">
 							<div class="img-box">
 								
 							</div>
@@ -649,11 +649,11 @@
 							<span class="ttl-6">Градиент</span> 
 							<div class="price-block price-block3 ">
 								<div class="price-box">
-									<div class="pleft">
+									<div class="pleft pleft2">
 										19
 									</div>
-									<div class="pright">
-										руб
+									<div class="pright pright3">
+										руб.
 									</div>
 								</div>
 							</div>
@@ -668,14 +668,14 @@
 							</div>
 						</div>
 						<div class="text-form-1 purple">
-							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
-							<div class="price-block">
+							<span class="ttl-1 ttl-5">Кейс</span> <br>
+							<span class="ttl-6">Кровавый</span> 
+							<div class="price-block price-block3 ">
 								<div class="price-box">
-									<div class="pleft">
+									<div class="pleft pleft2">
 										27
 									</div>
-									<div class="pright">
+									<div class="pright pright3">
 										руб
 									</div>
 								</div>
@@ -691,14 +691,14 @@
 							</div>
 						</div>
 						<div class="text-form-1 red">
-							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
-							<div class="price-block">
+							<span class="ttl-1 ttl-5">Кейс</span> <br>
+							<span class="ttl-6 ">Закалка</span> 
+							<div class="price-block price-block3">
 								<div class="price-box">
-									<div class="pleft">
+									<div class="pleft pleft2">
 										27
 									</div>
-									<div class="pright">
+									<div class="pright pright3">
 										руб
 									</div>
 								</div>
@@ -714,14 +714,14 @@
 							</div>
 						</div>
 						<div class="text-form-1 orange">
-							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
-							<div class="price-block">
+							<span class="ttl-1 ttl-5">Случайная</span> <br>
+							<span class="ttl-7">Наклейка \ Пин</span> 
+							<div class="price-block price-block3">
 								<div class="price-box">
-									<div class="pleft">
+									<div class="pleft pleft2">
 										27
 									</div>
-									<div class="pright">
+									<div class="pright pright3">
 										руб
 									</div>
 								</div>

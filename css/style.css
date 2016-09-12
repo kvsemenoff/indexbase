@@ -565,7 +565,8 @@
           font-size: 14px;
           font-family: "Exo2-Light"; }
       .middle-box .arm-row .arm-row__item .com-img-box {
-        min-height: 187px; }
+        min-height: 187px;
+        min-width: 233px; }
         .middle-box .arm-row .arm-row__item .com-img-box .img-box {
           width: 100%;
           height: 100%;
@@ -576,7 +577,7 @@
             top: 28px;
             z-index: 45; }
       .middle-box .arm-row .arm-row__item .cb-1 {
-        background: url(../img/r1.png) no-repeat top center; }
+        background: url(../img/r3.png) no-repeat top center; }
       .middle-box .arm-row .arm-row__item .cb-2 {
         background: url(../img/r2.png) no-repeat top center; }
       .middle-box .arm-row .arm-row__item .cb-3 {
@@ -617,7 +618,7 @@
   .middle-box .arm-row3 {
     padding-bottom: 10px; }
   .middle-box .arm-row4 {
-    padding-bottom: 100px; }
+    padding-bottom: 70px; }
 
 .price-block3 {
   display: inline-block;
@@ -644,15 +645,25 @@
 
 .price-block3 {
   position: absolute;
-  top: 159px; }
+  top: 159px;
+  border: none !important;
+  box-shadow: none !important; }
 
-.arm-row__item2 {
-  position: relative; }
-  .arm-row__item2 .price-block {
-    display: inline-block;
-    border-radius: 25px;
-    padding: 15px 15px;
-    margin-top: 17px; }
+.pleft2 {
+  padding-left: 10px; }
+
+.pright3 {
+  left: 52px;
+  position: absolute;
+  top: 9px; }
+
+.ttl-7 {
+  font-family: "RobotoCondensedBold";
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 192px;
+  left: -18px; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
