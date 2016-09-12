@@ -638,19 +638,19 @@
 
 			<div class="arm-row arm-row4">
 				<a href="#">
-					<div class="arm-row__item">
+					<div class="arm-row__item arm-row__item2">
 						<div class="com-img-box vb-9">
 							<div class="img-box">
 								
 							</div>
 						</div>
-						<div class="text-form-1 blue">
-							<span class="ttl-1">Случайное</span> <br>
-							<span class="ttl-2 ">армейское</span> 
-							<div class="price-block">
+						<div class="text-form-1 ab-blue">
+							<span class="ttl-1 ttl-5">Кейс</span> <br>
+							<span class="ttl-6">Градиент</span> 
+							<div class="price-block price-block3 ">
 								<div class="price-box">
 									<div class="pleft">
-										27
+										19
 									</div>
 									<div class="pright">
 										руб
