@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(reset.css);
 @import url(fonts.css);
 @import url(style4.css);
@@ -297,8 +298,10 @@
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    padding-bottom: 55px;
-    padding-top: 55px; }
+    /* ╨б╤А╨╡╨┤╨╜╨╕╨╣ ╨▒╨╗╨╛╨║ ╤Б╨╛ ╤Б╨╗╤Г╤З╨░╨╣╨╜╤Л╨╝ ╨╛╤А╤Г╨╢╨╕╨╡╨╝ */
+    /* ╨Ю╤В╨┤╨╡╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╤А╨░╨╖╨┤╨╡╨╗╨░ " Glock18 " */
+    /* ╨Ю╤В╨┤╨╡╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ ╨┤╨╗╤П ╤А╨░╨╖╨┤╨╡╨╗╨░ " ╨Т╤Б╨╡ ╨╕╨╗╨╕ ╨╜╨╕╤З╨╡╨│╨╛ " */
+    /* ------------------------------------------------------------- */ }
     .middle-box .arm-row .text-form-1 {
       width: 100%;
       text-align: center;
@@ -311,7 +314,8 @@
         margin-bottom: 15px; }
       .middle-box .arm-row .text-form-1 .ttl-2 {
         font-family: "Exo2-Medium";
-        font-size: 23px; }
+        font-size: 23px;
+        display: block; }
     .middle-box .arm-row .text-form-2 {
       line-height: 24px; }
       .middle-box .arm-row .text-form-2 span {
@@ -324,6 +328,204 @@
       .middle-box .arm-row .text-form-2 .ttl-2 {
         font-family: 'Open Sans Extrabold Italic', arial;
         font-size: 30px; }
+    .middle-box .arm-row .text-form-3 {
+      width: 100%;
+      text-align: center;
+      line-height: 10px;
+      position: absolute;
+      top: 25px;
+      right: 46px;
+      z-index: 50; }
+      .middle-box .arm-row .text-form-3 span {
+        display: inline-block; }
+      .middle-box .arm-row .text-form-3 .ttl-3 {
+        font-family: 'Open Sans Extrabold Italic', arial;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-bottom: 7px;
+        color: white;
+        text-transform: uppercase; }
+      .middle-box .arm-row .text-form-3 .ttl-4 {
+        font-family: 'Open Sans Extrabold Italic', arial !important;
+        font-size: 23px;
+        display: block;
+        color: white;
+        padding-right: 41px;
+        text-transform: uppercase; }
+    .middle-box .arm-row .ttl-3-m4 {
+      font-family: 'Open Sans Extrabold Italic', arial;
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-bottom: 7px;
+      color: white;
+      text-transform: uppercase; }
+    .middle-box .arm-row .ttl-4-m4 {
+      font-family: 'Open Sans Extrabold Italic', arial !important;
+      font-size: 23px;
+      display: block;
+      color: white;
+      position: absolute;
+      right: 120px;
+      top: 17px;
+      text-transform: uppercase; }
+    .middle-box .arm-row .price-block2 {
+      display: inline-block;
+      padding: 15px 15px;
+      margin-top: 17px; }
+    .middle-box .arm-row .ab-novinka {
+      display: inline-block;
+      border-radius: 25px;
+      border: 2px solid #cd3535;
+      margin-top: -7px;
+      padding: 4px 9px 8px;
+      background-color: rgba(18, 25, 31, 0.5);
+      position: absolute;
+      top: 58px;
+      left: 46px;
+      font-size: 14px;
+      font-family: "Exo2-Medium"; }
+    .middle-box .arm-row .ab-novinka2 {
+      display: inline-block;
+      border-radius: 25px;
+      border: 2px solid #FF1F81;
+      margin-top: -7px;
+      padding: 4px 9px 8px;
+      background-color: rgba(18, 25, 31, 0.5);
+      position: absolute;
+      top: 58px;
+      left: 46px;
+      font-size: 14px;
+      font-family: "Exo2-Medium"; }
+    .middle-box .arm-row .ab-novinka3 {
+      display: inline-block;
+      border-radius: 25px;
+      border: 2px solid #00E7F2;
+      margin-top: -7px;
+      padding: 4px 9px 8px;
+      background-color: rgba(18, 25, 31, 0.5);
+      position: absolute;
+      top: 58px;
+      left: 46px;
+      font-size: 14px;
+      font-family: "Exo2-Medium"; }
+    .middle-box .arm-row .ab-novinka4 {
+      display: inline-block;
+      border-radius: 25px;
+      border: 2px solid #FF5C76;
+      margin-top: -7px;
+      padding: 4px 9px 8px;
+      background-color: rgba(18, 25, 31, 0.5);
+      position: absolute;
+      top: 58px;
+      left: 46px;
+      font-size: 14px;
+      font-family: "Exo2-Medium"; }
+    .middle-box .arm-row .price-box2 {
+      display: table;
+      color: #fff; }
+      .middle-box .arm-row .price-box2 .pleft2 {
+        display: table-cell;
+        vertical-align: top;
+        font-size: 25px;
+        font-family: "RobotoCondensedBold";
+        position: absolute;
+        right: 9px;
+        top: 55px; }
+      .middle-box .arm-row .price-box2 .pright2 {
+        display: table-cell;
+        vertical-align: top;
+        font-size: 14px;
+        font-family: "Exo2-Light";
+        position: absolute;
+        right: -20px;
+        top: 50px; }
+    .middle-box .arm-row .com-img-box2 {
+      min-height: 187px; }
+      .middle-box .arm-row .com-img-box2 .img-box2 {
+        width: 100%;
+        height: 100%;
+        position: relative; }
+        .middle-box .arm-row .com-img-box2 .img-box2 img {
+          display: block;
+          position: absolute;
+          right: 1px;
+          top: -70px;
+          z-index: 45; }
+    .middle-box .arm-row a:hover .img-box2 img {
+      display: block;
+      top: -90px !important;
+      transition: top 550ms ease-in-out; }
+    .middle-box .arm-row .ab-key:hover:before {
+      position: absolute;
+      content: "";
+      width: 80px;
+      height: 80px;
+      background: url(../img/key.png) no-repeat top center;
+      z-index: 80;
+      left: 50%;
+      transform: translate(-50%, 0);
+      top: -10px; }
+    .middle-box .arm-row .img-box-kraska {
+      position: absolute;
+      right: 64px;
+      top: -60px; }
+    .middle-box .arm-row .img-box-kraska-m4 {
+      position: absolute;
+      right: 64px;
+      top: -60px;
+      right: -35px;
+      top: -94px; }
+    .middle-box .arm-row .img-box-kraska-stat {
+      position: absolute;
+      right: 55px;
+      top: -11px; }
+    .middle-box .arm-row a:hover .img-box2-stat img {
+      display: block;
+      top: -90px !important;
+      transition: top 550ms ease-in-out; }
+    .middle-box .arm-row .ab-last {
+      position: absolute;
+      right: -3px;
+      top: 24px;
+      z-index: 50; }
+    .middle-box .arm-row .ab-last2 {
+      position: absolute;
+      right: -41px;
+      top: 11px; }
+    .middle-box .arm-row .img-box2-stat {
+      width: 100%;
+      height: 100%;
+      position: relative; }
+      .middle-box .arm-row .img-box2-stat img {
+        display: block;
+        position: absolute;
+        right: 18px;
+        top: -58px;
+        z-index: 45; }
+    .middle-box .arm-row .ttl-4-glock {
+      font-family: 'Open Sans Extrabold Italic', arial !important;
+      font-size: 23px;
+      display: block;
+      color: white;
+      text-transform: uppercase;
+      position: absolute;
+      right: 46px; }
+    .middle-box .arm-row .ttl-3-last {
+      font-family: 'Open Sans Extrabold Italic', arial;
+      text-transform: uppercase;
+      font-size: 29px;
+      margin-bottom: 7px;
+      color: white;
+      text-transform: uppercase; }
+    .middle-box .arm-row .ttl-4-last {
+      font-family: 'Open Sans Extrabold Italic', arial !important;
+      font-size: 16px;
+      display: block;
+      color: white;
+      position: absolute;
+      right: 24px;
+      text-transform: uppercase;
+      top: 22px; }
     .middle-box .arm-row a {
       display: block;
       width: 202px;
@@ -407,6 +609,15 @@
         background: url(../img/v11.png) no-repeat top center; }
       .middle-box .arm-row .arm-row__item .vb-12 {
         background: url(../img/v12.png) no-repeat top center; }
+  .middle-box .arm-row1 {
+    padding-top: 50px;
+    padding-bottom: 150px; }
+  .middle-box .arm-row2 {
+    padding-bottom: 80px; }
+  .middle-box .arm-row3 {
+    padding-bottom: 10px; }
+  .middle-box .arm-row4 {
+    padding-bottom: 100px; }
 
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
