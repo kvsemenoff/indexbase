@@ -430,7 +430,7 @@
 							<span class="ttl-6">Градиент</span> 
 							<div class="price-block price-block3 ">
 								<div class="price-box">
-									<div class="pleft pleft2">
+									<div class="pleft pleft3">
 										19
 									</div>
 									<div class="pright pright3">
@@ -453,7 +453,7 @@
 							<span class="ttl-6">Кровавый</span> 
 							<div class="price-block price-block3 ">
 								<div class="price-box">
-									<div class="pleft pleft2">
+									<div class="pleft pleft3">
 										27
 									</div>
 									<div class="pright pright3">
@@ -476,7 +476,7 @@
 							<span class="ttl-6 ">Закалка</span> 
 							<div class="price-block price-block3">
 								<div class="price-box">
-									<div class="pleft pleft2">
+									<div class="pleft pleft3">
 										27
 									</div>
 									<div class="pright pright3">
@@ -495,11 +495,11 @@
 							</div>
 						</div>
 						<div class="text-form-1 orange">
-							<span class="ttl-1 ttl-5">Случайная</span> <br>
+							<span class="ttl-1 ttl-50">Случайная</span> <br>
 							<span class="ttl-7">Наклейка \ Пин</span> 
 							<div class="price-block price-block3">
 								<div class="price-box">
-									<div class="pleft pleft2">
+									<div class="pleft pleft3">
 										27
 									</div>
 									<div class="pright pright3">

@@ -235,6 +235,10 @@ select {
   width: 70px; }
 
 /*--------------------------------------------------*/
+.pleft3 {
+  position: absolute;
+  right: 8px; }
+
 /*------ ╨е╨╡╨┤╨╡╤А Middle------*/
 .ab-middle-header {
   width: 100%;

@@ -33,7 +33,8 @@
     box-shadow: 0 0 5px #fede2a; }
 
 .orange {
-  color: #fe702a; }
+  color: #fe702a;
+  margin-left: 27px !important; }
   .orange .price-block {
     border: 2px solid #fe702a;
     box-shadow: 0 0 5px #fe702a; }
@@ -656,7 +657,13 @@
 .ttl-5 {
   color: white;
   position: absolute;
-  right: 159px;
+  right: 205px;
+  top: 174px; }
+
+.ttl-50 {
+  color: white;
+  position: absolute;
+  right: 178px;
   top: 174px; }
 
 .ttl-6 {
@@ -681,7 +688,7 @@
   padding-left: 10px; }
 
 .pright3 {
-  left: 52px;
+  left: 26px;
   position: absolute;
   top: 9px; }
 
@@ -691,7 +698,7 @@
   color: white;
   position: absolute;
   top: 192px;
-  left: -18px; }
+  left: 10px; }
 
 .arm-row4 a:hover:before {
   position: absolute;

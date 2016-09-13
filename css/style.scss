@@ -49,6 +49,7 @@ $orange: #fe702a;
 }
 .orange{
     color: $orange;
+    margin-left: 27px !important;
     .price-block{
        @include svech2($orange);
     }
@@ -919,9 +920,18 @@ body{
 .ttl-5 {
     color:white;
     position: absolute;
-    right: 159px;
+    right: 205px;
     top: 174px;
 }
+
+.ttl-50 {
+    color:white;
+    position: absolute;
+    right: 178px;
+    top: 174px;
+}
+
+
 
 .ttl-6 {
     font-family: "RobotoCondensedBold";
@@ -949,7 +959,7 @@ body{
 }
 
 .pright3 {
-    left: 52px;
+    left: 26px;
     position: absolute;
     top: 9px;
 
@@ -961,12 +971,12 @@ body{
     color:white;
     position: absolute;
     top: 192px;
-    left: -18px;
+    left: 10px;
 }
 
-.arm-row__item2 {
 
-}
+
+
 
   .arm-row4{
   a:hover:before{
