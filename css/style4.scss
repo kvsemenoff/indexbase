@@ -3,6 +3,7 @@
     min-width: 1200px;
     background: #29303b;
     padding: 215px 0px 35px 0px;
+
     position: relative;
     h2{
         display: block;
@@ -33,17 +34,20 @@
         }
     }
     .case-row{
+        width: 100%;
         display: -webkit-flex; 
         display: flex; 
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         height: 100%;
         margin-bottom: 44px;
         position: relative;
+        //outline: 1px solid red;
         a{
             display: block;
             position: relative;
-            margin-left: -150px;
+            width: 270px;
+           // margin-left: -150px;
         }
         a:hover{
             .right-box{
@@ -488,7 +492,7 @@ select {
 /*-------------------------------------------------*/
 
 .middle-box{
-    background: url(../img/fon.png) no-repeat top center !important;
+    background: #202731 !important;
 }
 
 
