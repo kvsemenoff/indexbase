@@ -237,7 +237,16 @@ select {
 /*--------------------------------------------------*/
 .pleft3 {
   position: absolute;
-  right: 8px; }
+  right: -47px; }
+
+.pright91 {
+  position: absolute;
+  right: -15px;
+  top: 9px; }
+
+.pleft99 {
+  position: absolute;
+  right: 12px; }
 
 /*------ ╨е╨╡╨┤╨╡╤А Middle------*/
 .ab-middle-header {

@@ -499,10 +499,10 @@
 							<span class="ttl-7">Наклейка \ Пин</span> 
 							<div class="price-block price-block3">
 								<div class="price-box">
-									<div class="pleft pleft3">
+									<div class="pleft pleft99">
 										27
 									</div>
-									<div class="pright pright3">
+									<div class="pright pright91">
 										руб
 									</div>
 								</div>

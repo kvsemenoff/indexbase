@@ -901,7 +901,7 @@ body{
     }
     .arm-row4 {
         padding-bottom: 70px;
-        margin-right: 30px !important;
+        margin-left: -55px !important;
         .arm-row__item {
             width: 250px;
         }
@@ -920,7 +920,7 @@ body{
 .ttl-5 {
     color:white;
     position: absolute;
-    right: 205px;
+    right: 183px;
     top: 174px;
 }
 
@@ -940,7 +940,7 @@ body{
     padding-right: 69px;
     position: absolute;
     top: 192px;
-    left: 15px;
+    left: 38px;
 }
 
 .ttl-6:hover {
@@ -959,7 +959,14 @@ body{
 }
 
 .pright3 {
-    left: 26px;
+    left: 80px;
+    position: absolute;
+    top: 9px;
+
+}
+
+.pright97 {
+    left: 80px;
     position: absolute;
     top: 9px;
 
