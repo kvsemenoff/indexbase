@@ -288,7 +288,26 @@ select {
 }
 
 /*--------------------------------------------------*/
+.ab-big-txt {
+  font-size: 11px;
+  color: #FF711E;
+  font-family: "RobotoCondensedRegular";
+  position: absolute;
+  right: 73px;
+  top: 110px;
+  font-style: italic;
 
+}
+
+.ab-small-txt {
+  font-size: 5px;
+  color: #FF711E;
+  font-family: "RobotoCondensedRegular";
+  position: absolute;
+  right: 64px;
+  top: 111px;
+  font-style: italic;
+}
 
 .pleft3 {
  position: absolute;

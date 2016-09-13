@@ -32,6 +32,7 @@
 					<img src="img/t3.png" alt="" class="img1">
 					<div class="case-box"></div>
 				</div>
+				
 				<div class="nikcname">Nickname gamer</div>
 				<div class="svech"></div>	
 			</div>	
@@ -67,6 +68,10 @@
 				<div class="img-box">
 					<img src="img/t3.png" alt="" class="img1">
 					<div class="case-box"></div>
+				</div>
+				<div class="ab-txt-gun"> 
+					<span class="ab-big-txt">StatTrak</span>
+					<span class="ab-small-txt">TM</span>
 				</div>
 				<div class="nikcname">Nickname gamer</div>
 				<div class="svech"></div>	
