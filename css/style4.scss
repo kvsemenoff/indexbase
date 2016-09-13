@@ -18,6 +18,20 @@
         padding-top: 50px;
         top: 35px;
     }
+    .img-box{
+        position: relative;
+        width: 100%;
+        min-height: 180px;
+
+        img{
+            display: block;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            transition: 25px 550ms ease-in-out;
+           // margin-top: -50px;
+        }
+    }
     .case-row{
         display: -webkit-flex; 
         display: flex; 
@@ -25,13 +39,34 @@
         align-items: center;
         height: 100%;
         margin-bottom: 44px;
+        position: relative;
         a{
             display: block;
             position: relative;
+            margin-left: -150px;
         }
         a:hover{
             .right-box{
-              border: 5px solid rgba(150,161,52, 0.5);
+                //border: 5px solid rgba(150,161,52, 0.5);
+                border-top: 5px solid rgba(150,161,52, 0.5);
+                border-bottom: 5px solid rgba(150,161,52, 0.5);
+                animation: spin 2s linear infinite;
+            }
+            .right-box-inner{
+                width: 100%;
+                height: 100%;
+                animation: spin2 2s linear infinite;
+            }
+            .img-box{
+                position: relative;
+                width: 100%;
+                img{
+                    display: block;
+                    //position: absolute;
+                    top: -20px;
+                    transition: 20px 550ms ease-in-out;
+                    transition: top 550ms ease-in-out;
+                }
             }
         }
 
@@ -67,10 +102,21 @@
             left: 162px;
             box-sizing: border-box;
             border: 5px solid rgba(150,161,52, 0);
-           
-
-
+            
         }
+        .right-box-inner{
+            width: 100%;
+            height: 100%;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        @keyframes spin2 {
+            0% { transform: rotate(360deg); }
+            100% { transform: rotate(0deg); }
+        }
+
     }   
 }
       .ab-1 {

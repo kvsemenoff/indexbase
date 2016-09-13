@@ -12,8 +12,10 @@
 							<span class="cs">case</span>
 						</div>
 						<div class="right-box">
-							<span class="ab-1">139</span>
-							<span class="ab-2">руб.</span>
+							<div class="right-box-inner">
+								<span class="ab-1">139</span>
+								<span class="ab-2">руб.</span>
+							</div>
 						</div>
 					</div>
 				</a>
@@ -27,8 +29,10 @@
 							<span class="cs">case</span>
 						</div>
 						<div class="right-box">
-							<span class="ab-1">139</span>
-							<span class="ab-2">руб.</span>
+							<div class="right-box-inner">
+								<span class="ab-1">139</span>
+								<span class="ab-2">руб.</span>
+							</div>
 						</div>
 					</div>
 				</a>
@@ -42,8 +46,10 @@
 							<span class="cs">case</span>
 						</div>
 						<div class="right-box">
-							<span class="ab-1">139</span>
-							<span class="ab-2">руб.</span>
+							<div class="right-box-inner">
+								<span class="ab-1">139</span>
+								<span class="ab-2">руб.</span>
+							</div>
 						</div>
 					</div>
 				</a>
@@ -57,8 +63,10 @@
 							<span class="cs">case</span>
 						</div>
 						<div class="right-box">
-							<span class="ab-1">139</span>
-							<span class="ab-2">руб.</span>
+							<div class="right-box-inner">
+								<span class="ab-1">139</span>
+								<span class="ab-2">руб.</span>
+							</div>
 						</div>
 					</div>
 				</a>
@@ -84,8 +92,10 @@
 							<span class="cs">case</span>
 						</div>
 						<div class="right-box">
-							<span class="ab-1">139</span>
-							<span class="ab-2">руб.</span>
+							<div class="right-box-inner">
+								<span class="ab-1">139</span>
+								<span class="ab-2">руб.</span>
+							</div>
 						</div>
 					</div>
 				</a>
@@ -99,8 +109,10 @@
 							<span class="cs">case</span>
 						</div>
 						<div class="right-box">
-							<span class="ab-1">139</span>
-							<span class="ab-2">руб.</span>
+							<div class="right-box-inner">
+								<span class="ab-1">139</span>
+								<span class="ab-2">руб.</span>
+							</div>
 						</div>
 					</div>
 				</a>
@@ -114,8 +126,10 @@
 							<span class="cs">case</span>
 						</div>
 						<div class="right-box">
-							<span class="ab-1">139</span>
-							<span class="ab-2">руб.</span>
+							<div class="right-box-inner">
+								<span class="ab-1">139</span>
+								<span class="ab-2">руб.</span>
+							</div>
 						</div>
 					</div>
 				</a>
@@ -129,8 +143,10 @@
 							<span class="cs">case</span>
 						</div>
 						<div class="right-box">
-							<span class="ab-1">139</span>
-							<span class="ab-2">руб.</span>
+							<div class="right-box-inner">
+								<span class="ab-1">139</span>
+								<span class="ab-2">руб.</span>
+							</div>
 						</div>
 					</div>
 				</a>
@@ -156,8 +172,10 @@
 						<span class="cs">case</span>
 					</div>
 					<div class="right-box">
-						<span class="ab-1">139</span>
-						<span class="ab-2">руб.</span>
+						<div class="right-box-inner">
+							<span class="ab-1">139</span>
+							<span class="ab-2">руб.</span>
+						</div>
 					</div>
 				</div>
 			</a>	
@@ -171,8 +189,10 @@
 						<span class="cs">case</span>
 					</div>
 					<div class="right-box">
-						<span class="ab-1">139</span>
-						<span class="ab-2">руб.</span>
+						<div class="right-box-inner">
+							<span class="ab-1">139</span>
+							<span class="ab-2">руб.</span>
+						</div>
 					</div>
 				</div>
 			</a>
@@ -186,8 +206,10 @@
 						<span class="cs">case</span>
 					</div>
 					<div class="right-box">
-						<span class="ab-1">139</span>
-						<span class="ab-2">руб.</span>
+						<div class="right-box-inner">
+							<span class="ab-1">139</span>
+							<span class="ab-2">руб.</span>
+						</div>
 					</div>
 				</div>
 			</a>
@@ -201,8 +223,10 @@
 						<span class="cs">case</span>
 					</div>
 					<div class="right-box">
-						<span class="ab-1">139</span>
-						<span class="ab-2">руб.</span>
+						<div class="right-box-inner">
+							<span class="ab-1">139</span>
+							<span class="ab-2">руб.</span>
+						</div>
 					</div>
 				</div>
 			</a>	

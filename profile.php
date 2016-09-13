@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta content="telephone=no" name="format-detection"/>
 
-	<title>Главная страница</title>
+	<title>Профиль</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
@@ -23,225 +23,10 @@
 
 
 	<?php require_once('includes/header-top2.php');?>
+	
+	<div class="clear"></div>
 
-	<div id="top-slider">
-		<div class="item item-red">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название</span>
-			<div class="img-box">
-				<img src="img/t1.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-purple">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t2.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-pink">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t3.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-blue">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t4.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-				<div class="item item-yellow">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t1.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-orange">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название</span>
-			<div class="img-box">
-				<img src="img/t2.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-red">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t1.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-purple">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t2.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-pink">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t3.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-blue">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t4.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-				<div class="item item-yellow">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t1.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-orange">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t2.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-red">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название</span>
-			<div class="img-box">
-				<img src="img/t1.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-purple">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t2.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-pink">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t3.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-blue">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t4.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-				<div class="item item-yellow">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t1.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-orange">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t2.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-red">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t1.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-purple">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t2.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-pink">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t3.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-blue">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t4.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-				<div class="item item-yellow">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t1.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-		<div class="item item-orange">
-			<span class="title">P2000</span>
-			<span class="sub-title">Название окраса</span>
-			<div class="img-box">
-				<img src="img/t2.png" alt="">
-			</div>
-			<div class="nikcname">Nickname gamer</div>
-			<div class="svech"></div>		
-		</div>
-	</div>
+	<?php require_once('includes/slider.php');?>
 
 	<div class="get-subjects">
 		<div class="ab-wrap">
@@ -281,7 +66,7 @@
 					<div class="arm-row__item">
 						<div class="com-img-box cb-1">
 							<div class="img-box">
-								
+								<img src="img/r3_2.png" alt="">
 							</div>
 						</div>
 						<div class="text-form-1 blue">
