@@ -16,7 +16,6 @@ $orange: #fe702a;
   
 }
 
-
 .blue{
     color: $blue;
     .price-block{
@@ -71,19 +70,17 @@ body{
     width: 100%;
     padding-left: 64px;
     position: relative;
-    background-color: #29303B;
     //height: 55px;
 }
 
 .ab-gun-fix {
-    height: 135px;
+    height: 136px;
     left: 0;
     position: fixed;
     top: 149px;
     width: 65px;
     background: url(../img/live.png) no-repeat top center;
     background-size: cover;
-    border-top: 4px solid #3DBC00;
 
 }
 
@@ -292,14 +289,6 @@ body{
     .ab-gun-fix{
         position: absolute;
         top: 0;
-        height: 61px;
-        background: none;
-        background-color: #1C232A !important;
-    }
-    .ab-gun {
-    left: 14px;
-    position: absolute;
-    top: 14px;
     }
     
 }
