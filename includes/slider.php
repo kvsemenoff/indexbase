@@ -6,7 +6,7 @@
 	<div id="top-slider">
 
 		<div class="item item-red">
-			<div class="item-inner">
+			
 				<span class="title"><a href="#">P2000</a></span>
 				<span class="sub-title"><a href="#">Название окраса</a></span>
 				<div class="bottom-part">
@@ -17,7 +17,7 @@
 					<div class="nikcname">Nickname gamer</div>
 					<div class="svech"></div>	
 				</div>
-			</div>
+			
 		</div>
 		<div class="item item-purple">
 

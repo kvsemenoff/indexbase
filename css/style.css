@@ -231,13 +231,12 @@
     position: relative; }
     .slider-wrap-fixed .item .svech, .slider-wrap-fixed .item .nikcname {
       display: none !important; }
-  .slider-wrap-fixed .item:hover .item-inner {
-    position: absolute;
-    width: 100%;
-    height: 135px;
-    z-index: 100000; }
   .slider-wrap-fixed .item:hover:after {
-    background: none; }
+    background: none;
+    border: none !important;
+    border-radius: none; }
+  .slider-wrap-fixed .item:hover .case-box {
+    display: none !important; }
   .slider-wrap-fixed .item:after {
     background: none !important; }
   .slider-wrap-fixed .ab-gun-fix {
