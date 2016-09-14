@@ -76,8 +76,8 @@ body{
 .ab-gun-fix {
     height: 136px;
     left: 0;
-    position: fixed;
-    top: 149px;
+    position: absolute;
+    //top: 149px;
     width: 65px;
     background: url(../img/live.png) no-repeat top center;
     background-size: cover;
