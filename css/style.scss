@@ -89,24 +89,7 @@ body{
     top: 88px;
 }
 
-.slider-wrap-fixed{
-    position: fixed;
-    top: 0px;
-    z-index: 99999;
-    .item{
-        height: 61px !important;
-        .svech, .nikcname{
-            display: none !important;
 
-        }
-    }
-    .item:hover:after{
-        background: none;
-    }
-    .item:after{
-        background: none !important;
-    }
-}
 
 
 #top-slider{
@@ -188,7 +171,7 @@ body{
         position: absolute;
         content: "";
         background: url(../img/new-ava.png) no-repeat center;
-        width: 42px;
+        width: 40px;
         height: 39px;
         top: 47%;
         left: 50%;
@@ -201,6 +184,7 @@ body{
 
     }
     .item:hover{
+ 
         background: #29303b;
         .svech{
             display: none;
@@ -214,6 +198,7 @@ body{
         .ab-small-txt{
             display: none;
         }
+
     }
     .item:hover:after{
         display: block;
@@ -273,6 +258,46 @@ body{
     }
 
 }
+
+.slider-wrap-fixed{
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
+    .item{
+        height: 61px !important;
+        position: relative;
+        .svech, .nikcname{
+            display: none !important;
+
+        }
+    }
+    .item:hover {
+        // display: block;
+        // width: 100%;
+        // position: absolute;
+        // height: 135px !important;
+        .item-inner{
+        position: absolute;
+        width: 100%;
+        height: 135px;
+        z-index: 100000;
+    }
+    }
+
+    .item:hover:after{
+        background: none;
+    }
+    .item:after{
+        background: none !important;
+    }
+    .ab-gun-fix{
+        position: absolute;
+        top: 0;
+    }
+    
+}
+
+
 
 .get-subjects{
     width: 100%;

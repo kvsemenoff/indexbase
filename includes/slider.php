@@ -6,18 +6,21 @@
 	<div id="top-slider">
 
 		<div class="item item-red">
-			<span class="title"><a href="#">P2000</a></span>
-			<span class="sub-title"><a href="#">Название окраса</a></span>
-			<div class="bottom-part">
-				<div class="img-box">
-					<img src="img/t1.png" alt="" class="img1">
-					<div class="case-box"></div>
+			<div class="item-inner">
+				<span class="title"><a href="#">P2000</a></span>
+				<span class="sub-title"><a href="#">Название окраса</a></span>
+				<div class="bottom-part">
+					<div class="img-box">
+						<img src="img/t1.png" alt="" class="img1">
+						<div class="case-box"></div>
+					</div>
+					<div class="nikcname">Nickname gamer</div>
+					<div class="svech"></div>	
 				</div>
-				<div class="nikcname">Nickname gamer</div>
-				<div class="svech"></div>	
-			</div>	
+			</div>
 		</div>
 		<div class="item item-purple">
+
 			<span class="title"><a href="#">P2000</a></span>
 			<span class="sub-title"><a href="#">Название</a></span>
 			<div class="bottom-part">

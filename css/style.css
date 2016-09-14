@@ -62,19 +62,6 @@
   position: absolute;
   top: 88px; }
 
-.slider-wrap-fixed {
-  position: fixed;
-  top: 0px;
-  z-index: 99999; }
-  .slider-wrap-fixed .item {
-    height: 61px !important; }
-    .slider-wrap-fixed .item .svech, .slider-wrap-fixed .item .nikcname {
-      display: none !important; }
-  .slider-wrap-fixed .item:hover:after {
-    background: none; }
-  .slider-wrap-fixed .item:after {
-    background: none !important; }
-
 #top-slider {
   width: 100%;
   min-width: 1200px;
@@ -139,7 +126,7 @@
     position: absolute;
     content: "";
     background: url(../img/new-ava.png) no-repeat center;
-    width: 42px;
+    width: 40px;
     height: 39px;
     top: 47%;
     left: 50%;
@@ -234,6 +221,28 @@
       bottom: -25px;
       z-index: 10;
       box-shadow: 0 0 5px #fe702a, 0 0 10px #fe702a, 0 0 15px #fe702a, 0 0 20px #fe702a, 0 0 35px #fe702a, 0 0 40px #fe702a, 0 0 50px #fe702a, 0 0 75px #fe702a, 0 0 85px #fe702a, 0 0 105px #fe702a; }
+
+.slider-wrap-fixed {
+  position: fixed;
+  top: 0px;
+  z-index: 99999; }
+  .slider-wrap-fixed .item {
+    height: 61px !important;
+    position: relative; }
+    .slider-wrap-fixed .item .svech, .slider-wrap-fixed .item .nikcname {
+      display: none !important; }
+  .slider-wrap-fixed .item:hover .item-inner {
+    position: absolute;
+    width: 100%;
+    height: 135px;
+    z-index: 100000; }
+  .slider-wrap-fixed .item:hover:after {
+    background: none; }
+  .slider-wrap-fixed .item:after {
+    background: none !important; }
+  .slider-wrap-fixed .ab-gun-fix {
+    position: absolute;
+    top: 0; }
 
 .get-subjects {
   width: 100%;
