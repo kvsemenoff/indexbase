@@ -71,6 +71,7 @@ body{
     width: 100%;
     padding-left: 64px;
     position: relative;
+    background-color: #29303B;
     //height: 55px;
 }
 
@@ -290,6 +291,13 @@ body{
     .ab-gun-fix{
         position: absolute;
         top: 0;
+        height: 61px;
+        background: url(../img/ab-fon.png) no-repeat center;
+    }
+    .ab-gun {
+    left: 14px;
+    position: absolute;
+    top: 14px;
     }
     
 }

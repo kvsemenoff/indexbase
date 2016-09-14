@@ -47,7 +47,8 @@
   display: block;
   width: 100%;
   padding-left: 64px;
-  position: relative; }
+  position: relative;
+  background-color: #29303B; }
 
 .ab-gun-fix {
   height: 136px;
@@ -242,7 +243,13 @@
     background: none !important; }
   .slider-wrap-fixed .ab-gun-fix {
     position: absolute;
-    top: 0; }
+    top: 0;
+    height: 61px;
+    background: url(../img/ab-fon.png) no-repeat center; }
+  .slider-wrap-fixed .ab-gun {
+    left: 14px;
+    position: absolute;
+    top: 14px; }
 
 .get-subjects {
   width: 100%;
