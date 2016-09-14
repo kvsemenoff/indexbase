@@ -1,5 +1,10 @@
+
 <div class="slider-wrap">
+<div class="ab-gun-fix">
+	<img class="ab-gun" src="img/gun.png" alt="">		
+</div>
 	<div id="top-slider">
+
 		<div class="item item-red">
 			<span class="title"><a href="#">P2000</a></span>
 			<span class="sub-title"><a href="#">Название окраса</a></span>

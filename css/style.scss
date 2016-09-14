@@ -69,8 +69,26 @@ body{
 .slider-wrap{
     display: block;
     width: 100%;
+    padding-left: 64px;
+    position: relative;
     //height: 55px;
 }
+
+.ab-gun-fix {
+    height: 135px;
+    left: 0;
+    position: fixed;
+    top: 148px;
+    width: 63px;
+    background: url(../img/live.png) no-repeat top center;
+}
+
+.ab-gun {
+    left: 14px;
+    position: absolute;
+    top: 88px;
+}
+
 .slider-wrap-fixed{
     position: fixed;
     top: 0px;
@@ -89,7 +107,10 @@ body{
         background: none !important;
     }
 }
+
+
 #top-slider{
+
     width: 100%;
     min-width: 1200px;
     background: #15191d;
@@ -166,14 +187,17 @@ body{
     .item:after{
         position: absolute;
         content: "";
-        background: url(../img/ava.png) no-repeat top center;
-        width: 53px;
-        height: 53px;
-        top: 40%;
+        background: url(../img/new-ava.png) no-repeat center;
+        width: 42px;
+        height: 39px;
+        top: 47%;
         left: 50%;
         transform: translate(-50%, 0);
         z-index: 150;
         display: none;
+        border: 4px solid #C9F206;
+        border-radius: 7px;
+        box-sizing: border-box; 
 
     }
     .item:hover{
@@ -183,6 +207,12 @@ body{
         }
         .nikcname{
             display: block;
+        }
+        .ab-big-txt{
+            display: none;
+        }
+        .ab-small-txt{
+            display: none;
         }
     }
     .item:hover:after{
@@ -927,7 +957,7 @@ body{
 .ttl-50 {
     color:white;
     position: absolute;
-    right: 178px;
+    right: 153px;
     top: 174px;
 }
 
@@ -978,7 +1008,7 @@ body{
     color:white;
     position: absolute;
     top: 192px;
-    left: 10px;
+    left: 37px;
 }
 
 

@@ -457,7 +457,7 @@
 										27
 									</div>
 									<div class="pright pright3">
-										руб
+										руб.
 									</div>
 								</div>
 							</div>
@@ -480,7 +480,7 @@
 										27
 									</div>
 									<div class="pright pright3">
-										руб
+										руб.
 									</div>
 								</div>
 							</div>
@@ -503,7 +503,7 @@
 										27
 									</div>
 									<div class="pright pright91">
-										руб
+										руб.
 									</div>
 								</div>
 							</div>
