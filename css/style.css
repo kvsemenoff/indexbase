@@ -50,12 +50,13 @@
   position: relative; }
 
 .ab-gun-fix {
-  height: 135px;
+  height: 136px;
   left: 0;
   position: fixed;
-  top: 148px;
-  width: 63px;
-  background: url(../img/live.png) no-repeat top center; }
+  top: 149px;
+  width: 65px;
+  background: url(../img/live.png) no-repeat top center;
+  background-size: cover; }
 
 .ab-gun {
   left: 14px;

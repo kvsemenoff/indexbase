@@ -43,7 +43,7 @@ $(document).ready(function(){
                 items:10
             },
             1200:{
-                items:13
+                items:15
             }
         }
     });
